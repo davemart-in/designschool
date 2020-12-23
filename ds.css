@@ -16,14 +16,14 @@
 a, a:visited {
 	border-bottom: 2px solid #e1e1e1;
 	color: #333;
-    text-decoration: none;
-    outline: 0;
+	text-decoration: none;
+	outline: 0;
 }
 a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
-    transition-property: all;
-    transition-duration: 0.2s;
-    -webkit-font-smoothing: antialiased;
+	transition-property: all;
+	transition-duration: 0.2s;
+	-webkit-font-smoothing: antialiased;
 }
 a:hover, a:active {
 	border-color: #000;
@@ -49,6 +49,7 @@ h1 {
 h2 {
 	font-family: 'proxima_novaregular';
 	font-size: 24px;
+	margin-bottom: 24px;
 	opacity: .6;
 }
 h3 {
@@ -62,13 +63,14 @@ h4 {
 	opacity: .6;
 }
 hgroup {
-	margin-bottom: 60px;
+	margin-bottom: 56px;
 }
 li {
+	line-height: 28px;
 	margin-bottom: 24px;
 }
 p {
-	line-height: 24px;
+	line-height: 28px;
 	margin-bottom: 24px;
 }
 strong {
@@ -76,6 +78,88 @@ strong {
 }
 ul {
 	margin-left: 22px;
+}
+/* ------------------------------------- */
+/* CHANGELOG */
+/* ------------------------------------- */
+.changelog {
+	margin: 4em 0 0 0;
+	padding-left: 2.25em;
+	position: relative;
+}
+.changelog .day {
+	margin-top: 48px;
+	position: relative;
+}
+.changelog .day:before {
+	background-color: #bbb;
+	border-radius: 100%;
+	content: '';
+	display: inline-block;
+	height: 20px;
+	left: -39px;
+	position: absolute;
+	top: 3.5px;
+	width: 20px;
+}
+.changelog .day:after {
+	background: #ddd;
+	content: '';
+	display: block;
+	height: calc(100% + 60px);
+	left: -30px;
+	position: absolute;
+	top: 22px;
+	width: 1px;
+}
+.changelog .day h3 {
+	color: #999;
+	text-transform: none;
+}
+.changelog .task {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+}
+.changelog .task .badge {
+	border-radius: 6px;
+	color: #fff;
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-family: 'proxima_novabold';
+	font-size: 12px;
+	margin-top: 8px;
+	padding: 8px 16px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: 89px;
+}
+.changelog .task .badge.added {
+	background: #0077CC;
+}
+.changelog .task .badge.updated {
+	background: #6269C5;
+}
+.changelog .task .badge:before {
+	background: #ddd;
+	content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    right: 100%;
+    width: 30px;
+    top: 50%;
+}
+.changelog .task .desc {
+	flex-grow: 1;
+	flex-shrink: 1;
+	padding-left: 24px;
+	position: relative;
+	top: 13px;
+	width: calc(100% - 224px);
 }
 /* ------------------------------------- */
 /* HEADER */
@@ -143,8 +227,8 @@ nav .right a {
 	margin-left: 2px;
 	position: relative;
 	text-transform: uppercase;
-    top: -1px;
-    z-index: 2;
+	top: -1px;
+	z-index: 2;
 }
 .status.complete .stage {
 	color: #39AC6E;
