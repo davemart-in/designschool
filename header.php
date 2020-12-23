@@ -9,8 +9,8 @@
     <header>
         <section>
             <a href="/"><img src="/img/design-school.png"></a>
-            <h3>Product Designer</h3>
-            <h4>Education</h4>
+            <h3>Design School</h3>
+            <h4>Product Designer Education</h4>
         </section>
     </header>
     <main>

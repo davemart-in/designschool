@@ -44,12 +44,11 @@ h1, h2, h3, h4 {
 h1 {
 	font-size: 36px;
 	line-height: 40px;
-	margin-bottom: 12px;
 }
 h2 {
 	font-family: 'proxima_novaregular';
 	font-size: 24px;
-	margin-bottom: 24px;
+	margin: 24px 0;
 	opacity: .6;
 }
 h3 {
@@ -59,15 +58,19 @@ h3 {
 }
 h4 {
 	font-family: 'proxima_novaregular';
-	font-size: 16px;
+	font-size: 14px;
+	letter-spacing: .01em;
 	opacity: .6;
 }
 hgroup {
 	margin-bottom: 56px;
 }
+hgroup h2 {
+	margin-top: 12px;
+}
 li {
 	line-height: 28px;
-	margin-bottom: 24px;
+	margin-bottom: 6px;
 }
 p {
 	line-height: 28px;
@@ -158,7 +161,7 @@ ul {
 	flex-shrink: 1;
 	padding-left: 24px;
 	position: relative;
-	top: 13px;
+	top: 10px;
 	width: calc(100% - 224px);
 }
 /* ------------------------------------- */
@@ -293,4 +296,44 @@ nav .right a {
 .status .stage:hover:after {
 	opacity: 1;
 	visibility: visible;
+}
+@media only screen and (max-width: 1026px) {
+	.changelog .task .desc {
+		padding-left: 0;
+		width: 100%;
+	}
+	header {
+		bottom: auto;
+		display: block;
+		padding: 24px 54px;
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+	header section {
+		position: relative;
+		text-align: left;
+	}
+	header section img {
+		height: 61px;
+		width: 61px;
+	}
+	.status .stage {
+		display: block;
+		margin-left: 0;
+		padding: 4px 0;
+	}
+	main {
+		margin-left: 0;
+	}
+	nav {
+		font-size: 14px;
+	}
+	nav .right {
+		text-align: left;
+		width: 100%;
+	}
+	nav .right a {
+		margin: 0 16px 0 0;
+	}
 }

@@ -3,7 +3,7 @@
         <article>
             <hgroup>
                 <h1>Changelog</h1>
-                <h2>A list of updates to this site</h2>
+                <h2>An ongoing list of updates to this site</h2>
             </hgroup>
             <div class="changelog">
             	<div class="day">
