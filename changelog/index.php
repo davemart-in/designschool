@@ -23,7 +23,7 @@
             		<div class="task">
             			<span class="badge updated">updated</span>
             			<div class="desc">
-            				<p>Copy across a number of pages.</p>
+            				<p>Copy across all pages.</p>
             			</div>
             		</div>
             	</div>
