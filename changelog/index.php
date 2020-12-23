@@ -11,7 +11,19 @@
             		<div class="task">
             			<span class="badge added">added</span>
             			<div class="desc">
-            				<p>Changelog page</p>
+            				<p><a href="/changelog/">Changelog</a> page.</p>
+            			</div>
+            		</div>
+            		<div class="task">
+            			<span class="badge added">added</span>
+            			<div class="desc">
+            				<p>Responsive styles.</p>
+            			</div>
+            		</div>
+            		<div class="task">
+            			<span class="badge updated">updated</span>
+            			<div class="desc">
+            				<p>Copy across a number of pages.</p>
             			</div>
             		</div>
             	</div>
@@ -20,13 +32,13 @@
             		<div class="task">
             			<span class="badge added">added</span>
             			<div class="desc">
-            				<p>About page</p>
+            				<p><a href="/about/">About</a> page.</p>
             			</div>
             		</div>
             		<div class="task">
             			<span class="badge added">added</span>
             			<div class="desc">
-            				<p>Homepage</p>
+            				<p><a href="/">Home</a> page.</p>
             			</div>
             		</div>
             	</div>

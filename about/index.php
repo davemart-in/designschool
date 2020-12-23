@@ -6,7 +6,7 @@
 				<h2>The vision for this project</h2>
 			</hgroup>
 			<p>I'm <a href="https://davemart.in">Dave Martin</a>.</p>
-			<p>Over the years I've been extremely blessed by the opportunities I've received in my career as a product designer. As I move on to a different stage of life, I feel a strong desire to make a record of the things that I've learned over the years, to serve both as a resource for other designers and as a reference guide for myself.</p>
+			<p>Over the years I've been extremely blessed by the opportunities I've received in my career as a product designer. As I move on to a different stage of life, I feel a strong desire to make a record of the things that I've learned over the years. My hope is that this will serve both as a resource for other designers and as a future reference guide for myself.</p>
 			<h2>Mission</h2>
 			<strong>Democratize design education</strong>.
 			<h2>Principles</h2>

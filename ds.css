@@ -195,7 +195,7 @@ header section {
 /* ------------------------------------- */
 main {
 	margin-left: 20%;
-	max-width: 968px;
+	max-width: 60%;
 	padding: 54px;
 }
 main h3 {
@@ -325,6 +325,7 @@ nav .right a {
 	}
 	main {
 		margin-left: 0;
+		max-width: 100%;
 	}
 	nav {
 		font-size: 14px;
