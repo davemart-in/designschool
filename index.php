@@ -1,8 +1,9 @@
 <?php $prefix = ''; ?>
+<?php $edit_url = '/index.php'; ?>
 <?php include $prefix . 'header.php'; ?>
         <article>
             <hgroup>
-                <h1>You can become a digital product designer!</h1>
+                <h1>Anyone can be a digital product designer!</h1>
                 <h2>Learn at your own pace. Courses are 100% free. Everyone is welcome.</h2>
             </hgroup>
             <h3>Courses</h3>
