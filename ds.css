@@ -30,15 +30,15 @@ a:hover, a:active {
 	color: #000;
 }
 body {
-	font-family: 'proxima_novaregular';
+	font-family: 'proxima_novaregular', sans-serif;
 	font-size: 18px;
 }
 em {
-	font-family: 'proxima_novaregular_italic';
+	font-family: 'proxima_novaregular_italic', sans-serif;
 }
 h1, h2, h3, h4 {
 	display: block;
-	font-family: 'proxima_novabold';
+	font-family: 'proxima_novabold', sans-serif;
 	line-height: 150%;
 }
 h1 {
@@ -46,18 +46,18 @@ h1 {
 	line-height: 40px;
 }
 h2 {
-	font-family: 'proxima_novaregular';
+	font-family: 'proxima_novaregular', sans-serif;
 	font-size: 24px;
 	margin: 24px 0;
 	opacity: .6;
 }
 h3 {
-	font-family: 'proxima_novaregular';
+	font-family: 'proxima_novaregular', sans-serif;
 	font-size: 20px;
 	text-transform: uppercase;
 }
 h4 {
-	font-family: 'proxima_novaregular';
+	font-family: 'proxima_novaregular', sans-serif;
 	font-size: 14px;
 	letter-spacing: .01em;
 	opacity: .6;
@@ -80,7 +80,7 @@ small {
 	opacity: .5;
 }
 strong {
-	font-family: 'proxima_novabold';
+	font-family: 'proxima_novabold', sans-serif;
 }
 ul {
 	margin-left: 22px;
@@ -133,7 +133,7 @@ ul {
 	color: #fff;
 	flex-grow: 0;
 	flex-shrink: 0;
-	font-family: 'proxima_novabold';
+	font-family: 'proxima_novabold', sans-serif;
 	font-size: 12px;
 	margin-top: 8px;
 	padding: 8px 16px;
@@ -332,7 +332,7 @@ nav .right a {
 	color: #999;
 	cursor: pointer;
 	display: inline-block;
-	font-family: 'proxima_novabold';
+	font-family: 'proxima_novabold', sans-serif;
 	font-size: 10px;
 	margin-left: 2px;
 	position: relative;
