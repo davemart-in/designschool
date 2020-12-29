@@ -8,6 +8,23 @@ if (!window.console) {
 // Design School global 
 window.DS = function () {
 	// -------------------------------------------------------------
+	// DATA
+	// -------------------------------------------------------------
+	var data = {
+		about: {
+			content: "about",
+			title: "About DesignSchool.org"
+		},
+		changelog: {
+			content: "changelog",
+			title: "Design School changelog"
+		},
+		index: {
+			content: "index",
+			title: "Design School - For product designers"
+		}
+	};
+	// -------------------------------------------------------------
 	// VARIABLES
 	// -------------------------------------------------------------
 	var modalTimer;
@@ -15,10 +32,37 @@ window.DS = function () {
 	// PRIVATE FUNCTIONS
 	// -------------------------------------------------------------
 	function init() {
-		// Edit link
+		// Load main content
+		contentLoad();
+		// Load edit modal
+		fetchHtml('/content/modal.html', '.modal');
+		// Edit link event
 		document.querySelector('.edit').addEventListener('click', function(e) {
 			e.preventDefault();
 			modalShow();
+		});
+	}
+	function contentLoad() {
+		var path = window.location.pathname;
+		var pathSplit = path.split("/")
+		// Account for homepage
+		if (pathSplit[1] === '') { pathSplit[1] = 'index'; }
+		// Check for data
+		var thisPage = data[pathSplit[1]];
+		if (thisPage === undefined) {
+			return fetchHtml('/content/404.html', 'article');
+		}
+		// Load content from data object
+		fetchHtml('/content/' + thisPage.content + '.html', 'article');
+		// Set title
+		return document.title = thisPage.title;
+	}
+	function fetchHtml(file, el) {
+		// Fetch HTML
+		fetch(file).then(response => {
+			return response.text();
+		}).then(data => {
+			document.querySelector(el).innerHTML = data;
 		});
 	}
 	function modalEvents() {
