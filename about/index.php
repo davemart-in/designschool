@@ -6,25 +6,9 @@
     <link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css" />
 </head>
 <body>
-    <div class="modal_backdrop">
-        <div class="modal"></div>
-    </div>
-    <header>
-        <section>
-            <a href="/"><img src="/img/design-school.png"></a>
-            <h3>Design School</h3>
-            <h4>Product Designer Education</h4>
-        </section>
-    </header>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/_header.php'; ?>
     <main>
-        <nav>
-            <div class="right">
-                <a href="/">Home</a>
-                <a href="/about/">About</a>
-                <a href="/changelog/">Changelog</a>
-                <a href="https://github.com/davemart-in/designschool/edit/main/index.html" class="edit btn">Edit</a>
-            </div>
-        </nav>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
         <article>
             <hgroup>
                 <h1>About</h1>
@@ -78,5 +62,6 @@
             </p>
         </article>
     </main>
+    <script type="text/javascript" src="/ds.js"></script>
 </body>
 </html>
