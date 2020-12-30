@@ -12,16 +12,60 @@ window.DS = function () {
 	// -------------------------------------------------------------
 	var data = {
 		about: {
-			content: "about",
-			title: "About DesignSchool.org"
+			meta: {
+				content: "about",
+				title: "About DesignSchool.org",
+				type: "page"
+			}
 		},
 		changelog: {
-			content: "changelog",
-			title: "Design School changelog"
+			meta: {
+				content: "changelog",
+				title: "Design School changelog",
+				type: "page"
+			}
 		},
 		index: {
-			content: "index",
-			title: "Design School - For product designers"
+			meta: {
+				content: "index",
+				title: "Design School - For product designers",
+				type: "page"
+			}
+		},
+		leadership: {
+			meta: {
+				content: "leadership",
+				title: "Design leadership course",
+				type: "course"
+			},
+			objective: {
+				meta: {
+					content: "leadership/objective",
+					title: "Your primary objective",
+					type: "lesson"
+				}
+			},
+			playbook: {
+				meta: {
+					content: "leadership/playbook",
+					title: "Everyone's playbook is different",
+					type: "lesson"
+				}
+			},
+			priorities: {
+				meta: {
+					content: "leadership/priorities",
+					title: "Priorities",
+					type: "lesson"
+				}
+			},
+			team: {
+				meta: {
+					content: "leadership/team",
+					title: "team",
+					type: "lesson"
+				}
+			}
 		}
 	};
 	// -------------------------------------------------------------
@@ -44,11 +88,17 @@ window.DS = function () {
 	}
 	function contentLoad() {
 		var path = window.location.pathname;
-		var pathSplit = path.split("/")
-		// Account for homepage
-		if (pathSplit[1] === '') { pathSplit[1] = 'index'; }
-		// Check for data
-		var thisPage = data[pathSplit[1]];
+		var pathSplit = path.split("/");
+		var thisPage;
+		// Is this a lesson?
+		if (pathSplit[2] !== '' && pathSplit[2] !== undefined) {
+			thisPage = data[pathSplit[1]][pathSplit[2]].meta;
+		} else {
+			// Account for homepage
+			if (pathSplit[1] === '') { pathSplit[1] = 'index'; }
+			// Set this page data
+			thisPage = data[pathSplit[1]].meta;
+		}
 		if (thisPage === undefined) {
 			return fetchHtml('/content/404.html', 'article');
 		}
