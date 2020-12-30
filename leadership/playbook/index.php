@@ -17,6 +17,10 @@
 			</hgroup>
 			<p>The following resource is meant to be a list of ideas for you to consider, not a prescriptive path to follow.</p>
 		</article>
+		<?php 
+		$contributors = array('davemart-in');
+		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
+		?>
 	</main>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>

@@ -18,6 +18,10 @@
 			<p>Thinking of your designers like a sports team and you're their coach.</p>
 			<p>Note from Erin: Maybe worth noting here that there are different types of leadership styles? https://intenseminimalism.com/2015/the-six-styles-of-leadership/</p>
 		</article>
+		<?php 
+		$contributors = array('davemart-in');
+		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
+		?>
 	</main>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>

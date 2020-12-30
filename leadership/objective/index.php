@@ -17,6 +17,10 @@
 			</hgroup>
 			<p>Establish a healthy environment and assemble a team of designers who play well together and who deliver exceptional work, on time.</p>
 		</article>
+		<?php 
+		$contributors = array('davemart-in');
+		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
+		?>
 	</main>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>

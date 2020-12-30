@@ -17,6 +17,10 @@
 			</hgroup>
 			<p>Principles, People, Product, Profit always in that order.</p>
 		</article>
+		<?php 
+		$contributors = array('davemart-in');
+		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
+		?>
 	</main>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>

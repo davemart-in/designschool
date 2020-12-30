@@ -16,9 +16,11 @@ window.DS = function () {
 	// -------------------------------------------------------------
 	function init() {
 		// Edit link event
-		document.querySelector('.edit').addEventListener('click', function(e) {
-			e.preventDefault();
-			modalShow();
+		document.querySelectorAll('.edit').forEach(function(editButton) {
+			editButton.addEventListener('click', function(e) {
+				e.preventDefault();
+				modalShow();
+			});
 		});
 	}
 	function modalEvents() {

@@ -18,6 +18,10 @@
 			<p>We can’t find that page, but don‘t give up now! Try heading back at the <a href="/">home page</a>.</p>
 			<img src="/img/cheer-up.gif" width="100%" />
 		</article>
+		<?php 
+		$contributors = array('davemart-in');
+		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
+		?>
 	</main>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>

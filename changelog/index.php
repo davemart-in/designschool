@@ -37,6 +37,12 @@
 								<p>Cache busting</p>
 						  </div>
 					</div>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Contributor section</p>
+						  </div>
+					</div>
 				</div>
 				<div class="day">
 					<h3>Dec 29, 2020</h3>
