@@ -19,7 +19,7 @@
 				<a href="/leadership/playbook/" class="status progress">Everyone's playbook is different <span class="stage">in development</span></a>
 				<a href="/leadership/objective/" class="status progress">Your primary objective <span class="stage">in development</span></a>
 				<a href="/leadership/priorities/" class="status progress">Priorities <span class="stage">in development</span></a>
-				<a href="/leadership/team/" class="status progress">Not a family <span class="stage">in development</span></a>
+				<a href="/leadership/team/" class="status progress">Teammates, not a family <span class="stage">in development</span></a>
 			</div>
 		</article>
 	</main>

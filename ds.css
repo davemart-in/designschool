@@ -316,10 +316,20 @@ main .list a {
 /* NAV */
 /* ------------------------------------- */
 nav {
+	align-items: center;
+	display: flex;
 	margin-bottom: 80px;
 }
+nav .left {
+	flex: 1;
+	max-width: 100%;
+	min-width: 0;
+}
+nav .left a,
+nav .left strong {
+	margin-right: 24px;
+}
 nav .right {
-	float: right;
 	text-align: right;
 }
 nav .right a {
