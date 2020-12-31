@@ -376,6 +376,34 @@ nav .right a {
 	margin-left: 24px;
 }
 /* ------------------------------------- */
+/* SHARE */
+/* ------------------------------------- */
+.share {
+	right: 54px;
+	position: fixed;
+	text-align: center;
+	top: 54px;
+	z-index: 2;
+}
+.share a {
+	border: none;
+	display: block;
+	margin-bottom: 24px;
+}
+.share p {
+	color: #999;
+	font-size: 8px;
+	line-height: 18px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.share svg {
+	fill: #ccc;
+}
+.share svg:hover {
+	fill: #444;
+}
+/* ------------------------------------- */
 /* STATUS */
 /* ------------------------------------- */
 .status .stage {
@@ -506,24 +534,31 @@ nav .right a {
 		height: 61px;
 		width: 61px;
 	}
-	.status .stage {
-		display: block;
-		margin-left: 0;
-		padding: 4px 0;
-	}
 	main {
 		margin-left: 0;
 		max-width: 100%;
 	}
 	nav {
+		display: block;
 		font-size: 14px;
+		line-height: 30px;
+	}
+	nav .btn {
+		display: none;
+	}
+	nav .left a,
+	nav .left strong {
+		margin-right: 12px;
 	}
 	nav .right {
 		text-align: left;
 		width: 100%;
 	}
 	nav .right a {
-		margin: 0 16px 0 0;
+		margin: 0 12px 0 0;
+	}
+	.share {
+		display: none;
 	}
 }
 /* ------------------------------------- */
