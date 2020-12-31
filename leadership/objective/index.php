@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Know your primary objective</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Establish a healthy environment and assemble a team of designers who play well together and who deliver exceptional work, on time.</p>
 		</article>

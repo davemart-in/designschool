@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Everyone's playbook is different</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The following resource is meant to be a list of ideas for you to consider, not a prescriptive path to follow.</p>
 		</article>

@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Teammates, not a family</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Thinking of your designers like a sports team and you're their coach.</p>
 			<p>Note from Erin: Maybe worth noting here that there are different types of leadership styles? https://intenseminimalism.com/2015/the-six-styles-of-leadership/</p>

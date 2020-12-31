@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Own your mistakes</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>If you or your team messes up, own it and come up with a plan to fix it or an outline of how you’ll avoid letting this happen again in the future.</p>
 		</article>

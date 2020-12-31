@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Listen intently</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The importance of listening and really hearing what people are saying.</p>
 		</article>

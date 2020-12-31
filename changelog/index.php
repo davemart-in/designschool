@@ -37,6 +37,12 @@
 								<p>Hash links to headers of course pages</p>
 						  </div>
 					</div>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Progress pill-box to lessons</p>
+						  </div>
+					</div>
 				</div>
 				<div class="day">
 					<h3>Dec 30, 2020</h3>

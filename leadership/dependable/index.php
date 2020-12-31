@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Go to bat for your designers</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The importance of standing up for your team.</p>
 		</article>

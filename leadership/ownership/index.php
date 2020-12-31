@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Clear ownership</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The importance of establishing clear lanes of ownership.</p>
 		</article>

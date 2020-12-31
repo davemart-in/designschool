@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Letting go of design work</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Practical ways to let go of design work in your new role.</p>
 		</article>

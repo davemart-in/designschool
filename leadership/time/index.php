@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Know where your time goes</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The importance of knowing where your time goes.</p>
         	<p>Note from Erin: Activity logging vs. time tracking</p>

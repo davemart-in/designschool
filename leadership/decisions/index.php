@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Decision making</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The importance of allowing everyone the opportunity to weigh in before a decision is made.</p>
 		</article>

@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Company updates</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Importance of visual progress updates to the entire company and giving a sneak peek on what’s currently being worked on.</p>
 		</article>

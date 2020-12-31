@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Saying thanks</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The importance of giving praise, modeling good work and good behavior to the entire team.</p>
 		</article>

@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Give credit to your team</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Redirect credit sent your way to your team.</p>
 		</article>

@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Priorities</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Principles, People, Product, Profit always in that order.</p>
 		</article>

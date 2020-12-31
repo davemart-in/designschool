@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Difficult conversations</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Some thoughts on how to be candid while still kind with difficult topics.</p>
 		</article>

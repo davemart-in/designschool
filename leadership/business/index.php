@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Understanding business 101</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>It’s important to understand the fundamentals of business, CAC, ROI, ROAS, ARPU, etc… Become familiar with these terms and how your teams work impacts them. Understand how your company is performing at all times.</p>
 		</article>

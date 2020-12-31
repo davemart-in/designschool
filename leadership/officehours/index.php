@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Office hours</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>One way to mitigate excessive meetings.</p>
 		</article>

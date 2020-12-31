@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Actually care</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>If you don't actually care, the people who report to you will see right through you. The first step to effective leadership is actually caring.</p>
 		</article>

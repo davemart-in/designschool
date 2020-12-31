@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Psychological safety</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>When people fear, or feel unsafe they’ll struggle to do great work. It’s your role to identify and mitigate fears and create a safe space within your team.</p>
 			<p>Note from Erin: I’d ground this first in the concept of safe spaces(https://intenseminimalism.com/2018/the-asymmetry-of-safe-spaces/) and then on how fears play a role.</p>

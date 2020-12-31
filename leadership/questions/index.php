@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Ask questions</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>The importance of utilizing questions to help steer designers in the right direction vs. quickly mocking something up for them. Only then will you see how many times the solution they come up with is better than what you had originally envisioned.</p>
 		</article>

@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Clear expectations</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Designers should know exactly what is expected of them. Show example list.</p>
 		</article>

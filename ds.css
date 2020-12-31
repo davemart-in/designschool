@@ -379,19 +379,47 @@ nav .right a {
 /* STATUS */
 /* ------------------------------------- */
 .status .stage {
-	color: #999;
+	background: #999;
+	border-radius: 100%;
 	cursor: pointer;
 	display: inline-block;
-	font-family: 'proxima_novabold', sans-serif;
-	font-size: 10px;
+	height: 8px;
 	margin-left: 2px;
 	position: relative;
 	text-transform: uppercase;
 	top: -1px;
+	width: 8px;
 	z-index: 2;
 }
+.status.boxed {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 18px;
+	padding: 12px 12px 11px;
+	text-transform: uppercase;
+}
+.status.boxed a {
+	border: none;
+	margin-left: 12px;
+	padding-left: 13px;
+	position: relative;
+}
+.status.boxed a:before {
+	background: #ddd;
+	content: "";
+    position: absolute;
+    top: -12px;
+    bottom: -12px;
+    left: 0;
+    width: 1px;
+}
+.status.boxed .stage {
+	margin: 0 7px 0 0;
+}
 .status.complete .stage {
-	color: #39AC6E;
+	background: #39AC6E;
 }
 .status.complete .stage:before {
 	content: "Still open to feedback";
@@ -399,7 +427,7 @@ nav .right a {
 	width: 160px;
 }
 .status.progress .stage {
-	color: #FAB347;
+	background: #FAB347;
 }
 .status.progress .stage:before {
 	content: "Still needs refinement";
@@ -407,7 +435,7 @@ nav .right a {
 	width: 170px;
 }
 .status.unstarted .stage {
-	color: #93A1B0;
+	background: #93A1B0;
 }
 .status.unstarted .stage:before {
 	content: "Course not yet started";

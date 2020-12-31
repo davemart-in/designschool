@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Clear vision</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Designers should know what the vision of the company is and how their work affects the greater whole.</p>
 		</article>

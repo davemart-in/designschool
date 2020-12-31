@@ -13,7 +13,11 @@
 		<article>
 			<hgroup>
 				<h1>Start each day with a plan</h1>
-				<span class="stage">in development</span>
+				<?php
+				$status = 'progress'; // complete, progress, unstarted
+				$version = 'v0.1';
+				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
+				?>
 			</hgroup>
 			<p>Knowing what your priorities are for the day before you open up email or Slack.</p>
 		</article>
