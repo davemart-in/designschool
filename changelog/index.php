@@ -18,6 +18,15 @@
 			</hgroup>
 			<div class="changelog">
 				<div class="day">
+					<h3>Dec 31, 2020</h3>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p><a href="/leadership/#fundamentals">Leadership fundamentals</a> section</p>
+						  </div>
+					</div>
+				</div>
+				<div class="day">
 					<h3>Dec 30, 2020</h3>
 					<div class="task">
 						  <span class="badge updated">updated</span>
