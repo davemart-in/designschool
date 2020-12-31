@@ -22,6 +22,14 @@
 				<a href="/leadership/priorities/" class="status progress">Priorities <span class="stage">in development</span></a>
 				<a href="/leadership/team/" class="status progress">Teammates, not a family <span class="stage">in development</span></a>
 			</div>
+			<h3>Time management</h3>
+			<div class="list">
+				<a href="/leadership/consider/" class="status progress">Many things to consider <span class="stage">in development</span></a>
+				<a href="/leadership/time/" class="status progress">Know where your time goes <span class="stage">in development</span></a>
+				<a href="/leadership/work/" class="status progress">Letting go of design work <span class="stage">in development</span></a>
+				<a href="/leadership/start/" class="status progress">Start each day with a plan <span class="stage">in development</span></a>
+				<a href="/leadership/delegation/" class="status progress">Automation & delegation <span class="stage">in development</span></a>
+			</div>
 		</article>
 		<?php 
 		$contributors = array('davemart-in');
