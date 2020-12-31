@@ -43,7 +43,7 @@
             </p>
             <p>
                 <strong>Avoid college debt</strong><br>
-                The system we have now where designers go thousands of dollars into debt before they can even start designing is antiquated. You <a href="https://davemart.in/dont-pay-for-design-school/">don’t need a degree to become a designer</a>.
+                The system we have now where designers go thousands of dollars into debt before they can even start designing is antiquated. You <a href="https://davemart.in/dont-pay-for-design-school/" target="_blank">don’t need a degree to become a designer</a>.
             </p>
             <p>
                 <strong>Lessons that come to you</strong><br>
@@ -59,7 +59,7 @@
             </p>
             <p>
                 <strong>Collaborative effort</strong><br>
-                I invite any designer who has seen similar blessings in their design career to give back to the next generation of designers by collaborating with me on this project. If you'd like to get involved, simply click the "Edit" button on any page.
+                I invite any designer who has seen similar blessings in their design career to give back to the next generation of designers by collaborating with me on this project. If you'd like to get involved, simply click the "Edit" button on any lesson.
             </p>
         </article>
     </main>
