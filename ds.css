@@ -397,21 +397,21 @@ nav .right a {
 	display: inline-block;
 	font-size: 14px;
 	margin-top: 18px;
-	padding: 12px 12px 11px;
+	padding: 8px 10px 7px;
 	text-transform: uppercase;
 }
 .status.boxed a {
 	border: none;
-	margin-left: 12px;
-	padding-left: 13px;
+	margin-left: 10px;
+	padding-left: 11px;
 	position: relative;
 }
 .status.boxed a:before {
 	background: #ddd;
 	content: "";
     position: absolute;
-    top: -12px;
-    bottom: -12px;
+    top: -8px;
+    bottom: -8px;
     left: 0;
     width: 1px;
 }
