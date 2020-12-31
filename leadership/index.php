@@ -56,6 +56,16 @@
 				<a href="/leadership/officehours/" class="status progress">Office hours <span class="stage"></span></a>
 				<a href="/leadership/thanks/" class="status progress">Saying thanks <span class="stage"></span></a>
 			</div>
+			<h3 id="organization">Organization <a href="/leadership/#organization" class="hash">#</a></h3>
+			<div class="list">
+				<a href="/leadership/structure/" class="status progress">Agency vs. embedded <span class="stage"></span></a>
+				<a href="/leadership/reliable/" class="status progress">Reliable teammates <span class="stage"></span></a>
+				<a href="/leadership/seat/" class="status progress">Your seat at the leadership table <span class="stage"></span></a>
+				<a href="/leadership/leads/" class="status progress">Connecting with other leads <span class="stage"></span></a>
+				<a href="/leadership/support/" class="status progress">Working closely with support <span class="stage"></span></a>
+				<a href="/leadership/marketing/" class="status progress">Working closely with marketing <span class="stage"></span></a>
+				<a href="/leadership/engineers/" class="status progress">Working closely with engineers <span class="stage"></span></a>
+			</div>
 		</article>
 		<?php 
 		$contributors = array('davemart-in');
