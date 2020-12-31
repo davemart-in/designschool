@@ -236,6 +236,14 @@ main {
 main h3 {
 	margin: 56px 0 24px;
 }
+main h3 .hash {
+	border: none;
+	display: none;
+	margin-left: 4px;
+}
+main h3:hover .hash {
+	display: inline-block;
+}
 main .list a {
 	display: block;
 	margin-bottom: 24px;

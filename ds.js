@@ -65,13 +65,18 @@ window.DS = function () {
 		}, 200);
 	}
 	function scrollPositionCache() {
+		var body = document.querySelector('body');
+		var hash = window.location.hash;
 		var path = window.location.pathname;
 		var pathSplit = path.split('/');
 		var two = pathSplit[1];
 		var three = pathSplit[2];
+		// If hash exists in URL, jump there
+		if (hash) {
+			return body.scrollTop = document.querySelector(hash).offsetTop;
+		}
 		// Only save scroll position on course pages
 		if (two !== '' && two !== undefined && two !== 'about' && two !== 'changelog' && three === '' || two !== '' && two !== undefined && two !== 'about' && two !== 'changelog' && three === undefined) {
-			var body = document.querySelector('body');
 			var top = localStorage.getItem('course-scroll');
 			// If there is a saved value, use it
 			if (top !== null) {
