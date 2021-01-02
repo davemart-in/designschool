@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Office hours - Design leadership</title>
+	<title><?php echo $data["leadership"]['trials']['title']; ?> - Design leadership</title>
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 </head>
 <body>
@@ -12,14 +12,14 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
 		<article>
 			<hgroup>
-				<h1>Office hours</h1>
+				<h1><?php echo $data["leadership"]['trials']['title']; ?></h1>
 				<?php
 				$status = 'progress'; // complete, progress, unstarted
 				$version = 'v0.1';
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>One way to mitigate excessive meetings.</p>
+			<p>The importance of doing design trials. Some things to avoid.</p>
 		</article>
 		<?php 
 		$contributors = array('davemart-in');

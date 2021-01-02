@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Connecting with other leads - Design leadership</title>
+	<title><?php echo $data["leadership"]['leads']['title']; ?> - Design leadership</title>
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 </head>
 <body>
@@ -12,7 +12,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
 		<article>
 			<hgroup>
-				<h1>Connecting with other leads</h1>
+				<h1><?php echo $data["leadership"]['leads']['title']; ?></h1>
 				<?php
 				$status = 'progress'; // complete, progress, unstarted
 				$version = 'v0.1';

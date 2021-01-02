@@ -65,9 +65,13 @@ window.DS = function () {
 		}, 200);
 	}
 	function scrollPositionCache() {
+		var path = window.location.pathname;
+		// If homepage clear scroll position cache
+		if (path === '/') {
+			return localStorage.setItem('course-scroll', 0);
+		}
 		var body = document.querySelector('body');
 		var hash = window.location.hash;
-		var path = window.location.pathname;
 		var pathSplit = path.split('/');
 		var two = pathSplit[1];
 		var three = pathSplit[2];

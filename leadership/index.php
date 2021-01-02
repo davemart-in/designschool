@@ -15,62 +15,29 @@
 				<h1>Design leadership course</h1>
 				<h2>Learn to transition from designer to leader. This course is 100% free.</h2>
 			</hgroup>
-			<h3 id="intro">Intro <a href="/leadership/#intro" class="hash">#</a></h3>
-			<div class="list">
-				<a href="/leadership/playbook/" class="status progress">Everyone's playbook is different <span class="stage"></span></a>
-				<a href="/leadership/objective/" class="status progress">Your primary objective <span class="stage"></span></a>
-				<a href="/leadership/priorities/" class="status progress">Priorities <span class="stage"></span></a>
-				<a href="/leadership/team/" class="status progress">Teammates, not a family <span class="stage"></span></a>
-			</div>
-			<h3 id="time-management">Time management <a href="/leadership/#time-management" class="hash">#</a></h3>
-			<div class="list">
-				<a href="/leadership/consider/" class="status progress">Many things to consider <span class="stage"></span></a>
-				<a href="/leadership/time/" class="status progress">Know where your time goes <span class="stage"></span></a>
-				<a href="/leadership/work/" class="status progress">Letting go of design work <span class="stage"></span></a>
-				<a href="/leadership/start/" class="status progress">Start each day with a plan <span class="stage"></span></a>
-				<a href="/leadership/delegation/" class="status progress">Automation & delegation <span class="stage"></span></a>
-			</div>
-			<h3 id="fundamentals">Fundamentals <a href="/leadership/#fundamentals" class="hash">#</a></h3>
-			<div class="list">
-				<a href="/leadership/care/" class="status progress">Actually care <span class="stage"></span></a>
-				<a href="/leadership/trust/" class="status progress">Trust & respect <span class="stage"></span></a>
-				<a href="/leadership/listen/" class="status progress">Listen intently <span class="stage"></span></a>
-				<a href="/leadership/questions/" class="status progress">Ask questions <span class="stage"></span></a>
-				<a href="/leadership/mistakes/" class="status progress">Own your mistakes <span class="stage"></span></a>
-				<a href="/leadership/credit/" class="status progress">Give credit to your team <span class="stage"></span></a>
-				<a href="/leadership/dependable/" class="status progress">Go to bat for your designers <span class="stage"></span></a>
-				<a href="/leadership/business/" class="status progress">Understanding business 101 <span class="stage"></span></a>
-				<a href="/leadership/decisions/" class="status progress">Decision making <span class="stage"></span></a>
-				<a href="/leadership/conflict/" class="status progress">Resolving conflict <span class="stage"></span></a>
-				<a href="/leadership/safety/" class="status progress">Psychological safety <span class="stage"></span></a>
-			</div>
-			<h3 id="communication">Communication <a href="/leadership/#communication" class="hash">#</a></h3>
-			<div class="list">
-				<a href="/leadership/vision/" class="status progress">Clear vision <span class="stage"></span></a>
-				<a href="/leadership/expectations/" class="status progress">Clear expectations <span class="stage"></span></a>
-				<a href="/leadership/ownership/" class="status progress">Clear ownership <span class="stage"></span></a>
-				<a href="/leadership/journals/" class="status progress">Daily design journals <span class="stage"></span></a>
-				<a href="/leadership/difficult/" class="status progress">Difficult conversations <span class="stage"></span></a>
-				<a href="/leadership/celebrating/" class="status progress">Celebrating <span class="stage"></span></a>
-				<a href="/leadership/updates/" class="status progress">Company updates <span class="stage"></span></a>
-				<a href="/leadership/officehours/" class="status progress">Office hours <span class="stage"></span></a>
-				<a href="/leadership/thanks/" class="status progress">Saying thanks <span class="stage"></span></a>
-			</div>
-			<h3 id="organization">Organization <a href="/leadership/#organization" class="hash">#</a></h3>
-			<div class="list">
-				<a href="/leadership/structure/" class="status progress">Agency vs. embedded <span class="stage"></span></a>
-				<a href="/leadership/reliable/" class="status progress">Reliable teammates <span class="stage"></span></a>
-				<a href="/leadership/seat/" class="status progress">Your seat at the leadership table <span class="stage"></span></a>
-				<a href="/leadership/leads/" class="status progress">Connecting with other leads <span class="stage"></span></a>
-				<a href="/leadership/support/" class="status progress">Working closely with support <span class="stage"></span></a>
-				<a href="/leadership/marketing/" class="status progress">Working closely with marketing <span class="stage"></span></a>
-				<a href="/leadership/engineers/" class="status progress">Working closely with engineers <span class="stage"></span></a>
-			</div>
+
+			<?php 
+			$this_lesson = '';
+			$count = 0;
+			foreach ($data["leadership"] as $lesson => $meta) { 
+				// Increment count
+				$count++;
+				if ($this_lesson != $meta['section']) {
+					// Close our list div
+					if ($count != 1) { ?>
+					</div>
+					<?php }
+					// Update this lesson
+					$this_lesson = $meta['section']; ?>
+					<h3 id="<?php echo str_replace(' ', '', $meta['section']); ?>"><?php echo ucfirst($meta['section']); ?> <a href="/leadership/#<?php echo str_replace(' ', '', $meta['section']); ?>" class="hash">#</a></h3>
+					<div class="list">
+				<?php } ?>
+				<a href="/leadership<?php echo $meta['href']; ?>" class="status <?php echo $meta['status']; ?>"><?php echo $meta['title']; ?> <span class="stage"></span></a>
+				<?php if (count($data["leadership"]) == $count) { ?>
+				</div>
+				<?php } ?>
+			<?php } ?>
 		</article>
-		<?php 
-		$contributors = array('davemart-in');
-		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
-		?>
 	</main>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>

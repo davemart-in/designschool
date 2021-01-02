@@ -32,8 +32,8 @@
         <a href="/about/"<?php if ($_SERVER['REQUEST_URI'] == '/about/') { ?>style="font-weight: bold;"<?php } ?>>About</a>
         <a href="/changelog/"<?php if ($_SERVER['REQUEST_URI'] == '/changelog/') { ?>style="font-weight: bold;"<?php } ?>>Changelog</a>
         <?php 
-        // No need to edit home, changelog and about pages
-        if ($_SERVER['REQUEST_URI'] != '/' && $_SERVER['REQUEST_URI'] != '/about/' && $_SERVER['REQUEST_URI'] != '/changelog/') { ?>
+        // No need to edit anything but lesson pages
+        if (isset($exploded_url[2]) && $exploded_url[2] != '') { ?>
         <a href="https://github.com/davemart-in/designschool/edit/main<?php echo $_SERVER['REQUEST_URI']; ?>index.php" class="edit btn">Edit</a>
     	<?php } ?>
     </div>

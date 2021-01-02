@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Automation & delegation - Design leadership</title>
+	<title><?php echo $data["leadership"]['delegation']['title']; ?> - Design leadership</title>
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 </head>
 <body>
@@ -12,7 +12,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
 		<article>
 			<hgroup>
-				<h1>Automation & delegation</h1>
+				<h1><?php echo $data["leadership"]['delegation']['title']; ?></h1>
 				<?php
 				$status = 'progress'; // complete, progress, unstarted
 				$version = 'v0.1';

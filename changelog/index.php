@@ -18,6 +18,21 @@
 			</hgroup>
 			<div class="changelog">
 				<div class="day">
+					<h3>Jan 1, 2021</h3>
+					<div class="task">
+						  <span class="badge updated">updated</span>
+						  <div class="desc">
+								<p>Data structure for courses and lessons</p>
+						  </div>
+					</div>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Remaining leadership course lessons</p>
+						  </div>
+					</div>
+				</div>
+				<div class="day">
 					<h3>Dec 31, 2020</h3>
 					<div class="task">
 						  <span class="badge added">added</span>

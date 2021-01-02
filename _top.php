@@ -1,2 +1,10 @@
 <?php
-$cachebuster = '12.31.20.7';
+$cachebuster = '01.02.2021';
+// Load courses data
+include $_SERVER['DOCUMENT_ROOT'] . '/data/courses.php';
+// Helper function
+function pp($val) {
+	echo '<pre>';
+	print_r($val);
+	echo '</pre>';
+}
