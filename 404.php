@@ -1,9 +1,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/_top.php'; ?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Design School - Product designer Education Democratized</title>
+	<title>Design School error page</title>
+	<meta name="Description" content="page not found">
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -20,7 +22,7 @@
 				<h2>Will you look at that.</h2>
 			</hgroup>
 			<p>We can’t find that page, but don‘t give up now! Try heading back at the <a href="/">home page</a>.</p>
-			<img src="/img/cheer-up.gif" width="100%" />
+			<img src="/img/cheer-up.gif" width="100%" alt="funny gif" />
 		</article>
 		<?php 
 		$contributors = array('davemart-in');

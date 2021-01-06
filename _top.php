@@ -1,5 +1,5 @@
 <?php
-$cachebuster = '01.06.2021';
+$cachebuster = '01.06.2021.1';
 // Load courses data
 include $_SERVER['DOCUMENT_ROOT'] . '/data/courses.php';
 // Helper function
