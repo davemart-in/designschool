@@ -407,31 +407,31 @@ $data["leadership"] = [
 	],
 	"connecting"=>[
 		"href"=>"/connecting/",
-		"section"=>"1:1s",
+		"section"=>"1:1",
 		"status"=>"progress",
 		"title"=>"Connecting"
 	],
 	"preparing"=>[
 		"href"=>"/preparing/",
-		"section"=>"1:1s",
+		"section"=>"1:1",
 		"status"=>"progress",
 		"title"=>"Preparing for 1:1s"
 	],
 	"agenda"=>[
 		"href"=>"/agenda/",
-		"section"=>"1:1s",
+		"section"=>"1:1",
 		"status"=>"progress",
 		"title"=>"Transparent agenda"
 	],
 	"feedback"=>[
 		"href"=>"/feedback/",
-		"section"=>"1:1s",
+		"section"=>"1:1",
 		"status"=>"progress",
 		"title"=>"Timely feedback"
 	],
 	"growth"=>[
 		"href"=>"/growth/",
-		"section"=>"1:1s",
+		"section"=>"1:1",
 		"status"=>"progress",
 		"title"=>"Growth opportunities"
 	],

@@ -5,6 +5,10 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Design School - Product designer Education Democratized</title>
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 	<?php include $_SERVER['DOCUMENT_ROOT'] . '/_header.php'; ?>
@@ -17,6 +21,15 @@
 				<small>Design inspired by <a href="https://carrd.co/docs/general/changelog" rel="nofollow">Carrd</a></small>
 			</hgroup>
 			<div class="changelog">
+				<div class="day">
+					<h3>Jan 6, 2021</h3>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Favicon</p>
+						  </div>
+					</div>
+				</div>
 				<div class="day">
 					<h3>Jan 1, 2021</h3>
 					<div class="task">
