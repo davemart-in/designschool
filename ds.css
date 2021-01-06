@@ -391,14 +391,14 @@ nav .right a {
 	margin-bottom: 24px;
 }
 .share p {
-	color: #999;
+	color: #666;
 	font-size: 8px;
 	line-height: 18px;
     margin-bottom: 24px;
     text-transform: uppercase;
 }
 .share svg {
-	fill: #ccc;
+	fill: #aaa;
 }
 .share svg:hover {
 	fill: #444;
