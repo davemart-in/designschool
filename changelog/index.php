@@ -26,9 +26,18 @@
 				<div class="day">
 					<h3>Jan 8, 2021</h3>
 					<div class="task">
+						  <span class="badge updated">updated</span>
+						  <div class="desc">
+								<p>Next/Prev links</p>
+						  </div>
+					</div>
+				</div>
+				<div class="day">
+					<h3>Jan 8, 2021</h3>
+					<div class="task">
 						  <span class="badge added">added</span>
 						  <div class="desc">
-								<p>Next/Prev lesson logic</p>
+								<p>Next/Prev links</p>
 						  </div>
 					</div>
 				</div>

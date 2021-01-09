@@ -1,10 +1,12 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/_top.php'; ?>
+<?php $course = 'leadership'; ?>
+<?php $lesson = 'leads'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title><?php echo $data["leadership"]['leads']['title']; ?> - Design leadership</title>
+	<title><?php echo $data["leadership"][$lesson]['title']; ?> - Design leadership</title>
 	<meta name="description" content="The importance of connecting with other leads">
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -18,7 +20,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
 		<article>
 			<hgroup>
-				<h1><?php echo $data["leadership"]['leads']['title']; ?></h1>
+				<h1><?php echo $data["leadership"][$lesson]['title']; ?></h1>
 				<?php
 				$status = 'progress'; // complete, progress, unstarted
 				$version = 'v0.1';
@@ -27,6 +29,9 @@
 			</hgroup>
 			<p>The importance of going above and beyond to connect with other leaders within the company.</p>
 		</article>
+		<?php 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		?>
 		<?php 
 		$contributors = array('davemart-in');
 		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 

@@ -376,6 +376,23 @@ nav .right a {
 	margin-left: 24px;
 }
 /* ------------------------------------- */
+/* NEXT PREV */
+/* ------------------------------------- */
+.nextprev {
+	align-items: flex-start;
+	display: flex;
+}
+.nextprev a strong {
+	display: block;
+	font-size: 24px;
+}
+.nextprev .next {
+	margin-right: auto !important;
+}
+.nextprev .prev {
+	margin-right: 48px;
+}
+/* ------------------------------------- */
 /* SHARE */
 /* ------------------------------------- */
 .share {

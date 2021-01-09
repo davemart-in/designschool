@@ -1,10 +1,12 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/_top.php'; ?>
+<?php $course = 'leadership'; ?>
+<?php $lesson = 'connecting'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title><?php echo $data["leadership"]['connecting']['title']; ?> - Design leadership</title>
+	<title><?php echo $data["leadership"][$lesson]['title']; ?> - Design leadership</title>
 	<meta name="description" content="The importance of connecting with your designers">
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -18,7 +20,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
 		<article>
 			<hgroup>
-				<h1><?php echo $data["leadership"]['connecting']['title']; ?></h1>
+				<h1><?php echo $data["leadership"][$lesson]['title']; ?></h1>
 				<?php
 				$status = 'progress'; // complete, progress, unstarted
 				$version = 'v0.1';
@@ -27,6 +29,9 @@
 			</hgroup>
 			<p>Always start with personal life, family, and non-work stuff as that is always going to be more important than anything work related.</p>
 		</article>
+		<?php 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		?>
 		<?php 
 		$contributors = array('davemart-in');
 		include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
