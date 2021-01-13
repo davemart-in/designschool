@@ -437,31 +437,31 @@ $data["leadership"] = [
 	],
 	"weekly"=>[
 		"href"=>"/weekly/",
-		"section"=>"performance management",
+		"section"=>"performance",
 		"status"=>"progress",
 		"title"=>"Weekly or Bi-weekly updates"
 	],
 	"quarterly"=>[
 		"href"=>"/quarterly/",
-		"section"=>"performance management",
+		"section"=>"performance",
 		"status"=>"progress",
 		"title"=>"Quarterly Health Check"
 	],
 	"reviews"=>[
 		"href"=>"/reviews/",
-		"section"=>"performance management",
+		"section"=>"performance",
 		"status"=>"progress",
 		"title"=>"Six month reviews"
 	],
 	"remove"=>[
 		"href"=>"/remove/",
-		"section"=>"performance management",
+		"section"=>"performance",
 		"status"=>"progress",
 		"title"=>"Remove toxic, net-negative, and unethical people"
 	],
 	"parting"=>[
 		"href"=>"/parting/",
-		"section"=>"performance management",
+		"section"=>"performance",
 		"status"=>"progress",
 		"title"=>"Parting ways"
 	],

@@ -393,6 +393,35 @@ nav .right a {
 	margin-right: 48px;
 }
 /* ------------------------------------- */
+/* OUTLINE */
+/* ------------------------------------- */
+.outline {
+	position: fixed;
+	right: 6%;
+	top: 55px;
+	width: 12%;
+}
+.outline li {
+	list-style: none;
+}
+.outline li a {
+	border: none;
+	color: #666;
+	font-size: 13px;
+	text-transform: capitalize;
+	transition: all 50ms ease-out;
+}
+.outline li a.active {
+	color: #000;
+}
+.outline strong {
+	display: block;
+	margin-bottom: 10px;
+}
+.outline ul {
+	margin-left: 2px;
+}
+/* ------------------------------------- */
 /* SHARE */
 /* ------------------------------------- */
 .share {
@@ -573,6 +602,9 @@ nav .right a {
 	}
 	nav .right a {
 		margin: 0 12px 0 0;
+	}
+	.outline {
+		display: none;
 	}
 	.share {
 		display: none;

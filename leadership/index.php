@@ -13,7 +13,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 </head>
-<body>
+<body class="class">
 	<?php include $_SERVER['DOCUMENT_ROOT'] . '/_header.php'; ?>
 	<main>
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
@@ -36,7 +36,10 @@
 					<?php }
 					// Update this lesson
 					$this_lesson = $meta['section']; ?>
-					<h3 id="<?php echo str_replace(' ', '', $meta['section']); ?>"><?php echo ucfirst($meta['section']); ?> <a href="/<?php echo $course; ?>/#<?php echo str_replace(' ', '', $meta['section']); ?>" class="hash">#</a></h3>
+					<h3 id="<?php echo str_replace(' ', '', $meta['section']); ?>">
+						<span><?php echo ucfirst($meta['section']); ?></span>
+						<a href="/<?php echo $course; ?>/#<?php echo str_replace(' ', '', $meta['section']); ?>" class="hash">#</a>
+					</h3>
 					<div class="list">
 				<?php } ?>
 				<a href="/<?php echo $course; ?><?php echo $meta['href']; ?>" class="status <?php echo $meta['status']; ?>"><?php echo $meta['title']; ?> <span class="stage"></span></a>
@@ -46,6 +49,10 @@
 			<?php } ?>
 		</article>
 	</main>
+	<section class="outline">
+		<strong>OUTLINE</strong>
+		<ul></ul>
+	</section>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>
 </html>

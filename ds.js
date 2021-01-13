@@ -10,7 +10,10 @@ window.DS = function () {
 	// -------------------------------------------------------------
 	// VARIABLES
 	// -------------------------------------------------------------
+	var debounceRun = true;
+	var debounceTimer;
 	var modalTimer;
+	var headerScrollPositions = {};
 	// -------------------------------------------------------------
 	// PRIVATE FUNCTIONS
 	// -------------------------------------------------------------
@@ -24,6 +27,8 @@ window.DS = function () {
 				modalShow();
 			});
 		});
+		// Do we need to show an outline on the right?
+		outlineCheck();
 	}
 	function modalEvents() {
 		// Prevent clicks on .modal from bubbling up
@@ -63,6 +68,59 @@ window.DS = function () {
 			// Events
 			modalEvents();
 		}, 200);
+	}
+	function outlineCheck() {
+		if (document.body.classList.contains('class')) {
+			var outline = '';
+			document.querySelectorAll('article h3').forEach(function(header) {
+				var id = header.id;
+				var text = header.getElementsByTagName('span')[0].innerText || header.getElementsByTagName('span')[0].textContent;;
+				outline += '<li><a href="#' + id + '" class="outline-' + id.replace(/[^a-z0-9]/gi,'') + '">' + text + '</a></li>';
+			});
+			document.querySelector('.outline ul').innerHTML = outline;
+			return outlineOffsetUpdate();
+		}
+	}
+	function outlineOffsetCheck() {
+		document.addEventListener('scroll', _debounce(function _scroll() {
+			var scrolled = parseInt(document.documentElement.scrollTop);
+			var positions = headerScrollPositions;
+			var currentHeader = '';
+			// Loop through headerScrollPositions values and set outline active class
+			for (var key in positions) {
+				var headerPosition = parseInt(positions[key]);
+				// skip loop if the property is from prototype
+				if (!positions.hasOwnProperty(key)) continue;
+				// If we haven't reached first section
+				if (scrolled < 299) {
+					currentHeader = Object.keys(headerScrollPositions)[0];
+					break;
+				}
+				// Check value against current scroll position
+				if (headerPosition < scrolled) {
+					currentHeader = key;
+				} else {
+					break;
+				}
+			}
+			if (currentHeader) {
+				// Remove old active class
+				document.querySelectorAll('.outline a').forEach(function(link) {
+					_classRemove(link, 'active');
+				});
+				// Set new active class
+				_classAdd(document.querySelector('.outline-' + currentHeader.replace(/[^a-z0-9]/gi,'')), 'active');
+			}
+		}, 300));
+	}
+	function outlineOffsetUpdate() {
+		// Hard reset all values
+		headerScrollPositions = [];
+		// Loop through all headers
+		document.querySelectorAll('article h3').forEach(function(header) {
+			headerScrollPositions[header.id] = header.offsetTop;
+		});
+		return outlineOffsetCheck();
 	}
 	function scrollPositionCache() {
 		var path = window.location.pathname;
@@ -111,6 +169,20 @@ window.DS = function () {
 			} else {
 				el.className = el.className.replace(new RegExp('(^|\\b)' + cl.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
 			}
+		}
+	}
+	function _debounce(fn, delay) {
+		if (debounceRun) {
+			debounceRun = false;
+			return function () {
+				var context = this, 
+					args = arguments;
+				clearTimeout(debounceTimer);
+				debounceTimer = setTimeout(function () {
+					fn.apply(context, args);
+					debounceRun = true;
+				}, delay);
+			};
 		}
 	}
 	// -------------------------------------------------------------

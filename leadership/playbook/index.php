@@ -14,7 +14,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 </head>
-<body>
+<body class="lesson">
 	<?php include $_SERVER['DOCUMENT_ROOT'] . '/_header.php'; ?>
 	<main>
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
@@ -27,7 +27,10 @@
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>The following resource is meant to be a list of ideas for you to consider, not a prescriptive path to follow.</p>
+			<p>There are a lot of successful teams in the world. None of whom use the same playbook.</p>
+			<p>As you begin your leadership journey it's important to understand this. There is no magic mix of skills and behaviors that will turn you into a great leader.</p>
+			<p>The best thing that you can do is be authentic to yourself and to iterate towards being a better lead and building a better team with time.</p>
+			<p>The following resource is meant to be a list of ideas for you to consider. It is in no way meant to be a prescriptive path to follow.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
