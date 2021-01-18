@@ -31,7 +31,8 @@
 			<p>Note from Erin: This is a massive topic on its own. I feel it should also touch on matrix orgs vs horizontal (agency) vs vertical(embedded/business unit agency)</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

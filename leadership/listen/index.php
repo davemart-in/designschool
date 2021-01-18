@@ -30,7 +30,8 @@
 			<p>The importance of listening and really hearing what people are saying.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

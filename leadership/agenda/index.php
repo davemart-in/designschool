@@ -30,7 +30,8 @@
 			<p>Making 1:1 notes available via shared Google Doc or Paper doc, and how this allows both designer and manager to add items to the agenda throughout a week.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

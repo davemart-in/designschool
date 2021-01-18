@@ -38,7 +38,8 @@
     		<p>Doing this will set a clear expectation about what is being measured and what our expectations are. It will also highlight the designers that are producing the bulk of the work, and the ones that are just coasting.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

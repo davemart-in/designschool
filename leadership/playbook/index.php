@@ -33,7 +33,8 @@
 			<p>The following resource is meant to be a list of ideas for you to consider. It is in no way meant to be a prescriptive path to follow.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

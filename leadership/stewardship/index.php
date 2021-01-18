@@ -30,7 +30,8 @@
 			<p>In addition to the projects that each designer works on day-to-day, have them be accountable for the design of a specific section of your app as well. On a regular basis they should be expected to make continual improvements to that section.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

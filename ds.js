@@ -111,7 +111,7 @@ window.DS = function () {
 				// Set new active class
 				_classAdd(document.querySelector('.outline-' + currentHeader.replace(/[^a-z0-9]/gi,'')), 'active');
 			}
-		}, 300));
+		}, 100));
 	}
 	function outlineOffsetUpdate() {
 		// Hard reset all values

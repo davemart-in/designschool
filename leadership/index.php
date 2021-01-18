@@ -23,6 +23,8 @@
 				<h2>Learn to transition from designer to leader. This course is 100% free.</h2>
 			</hgroup>
 
+			<?php include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php'; ?>
+
 			<?php 
 			$this_lesson = '';
 			$count = 0;
@@ -48,6 +50,8 @@
 				<?php } ?>
 			<?php } ?>
 		</article>
+
+		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php'; ?>
 	</main>
 	<section class="outline">
 		<strong>OUTLINE</strong>

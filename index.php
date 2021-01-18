@@ -21,6 +21,9 @@
 				<h1>A free school for digital product designers</h1>
 				<h2>Learn at your own pace. Courses are 100% free. Everyone is welcome.</h2>
 			</hgroup>
+
+			<?php include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php'; ?>
+
 			<h3>In progress courses</h3>
 			<div class="list">
 				<?php foreach ($data['courses']['progress'] as $course => $meta) { ?>
@@ -34,6 +37,8 @@
 				<?php } ?>
 			</div>
 		</article>
+
+		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php'; ?>
 	</main>
 	<script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>

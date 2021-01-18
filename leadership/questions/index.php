@@ -30,7 +30,8 @@
 			<p>The importance of utilizing questions to help steer designers in the right direction vs. quickly mocking something up for them. Only then will you see how many times the solution they come up with is better than what you had originally envisioned.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

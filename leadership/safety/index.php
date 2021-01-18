@@ -31,7 +31,8 @@
 			<p>Note from Erin: I’d ground this first in the concept of safe spaces(https://intenseminimalism.com/2018/the-asymmetry-of-safe-spaces/) and then on how fears play a role.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

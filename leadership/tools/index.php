@@ -31,7 +31,8 @@
         	<p>Note from Erin: This needs to build up on the communication tools used. Note that we can do this because we defer to P2, GitHub, and Asana. If a team is exclusively using the tool, the tool itself matter. It’s an important distinction.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

@@ -29,6 +29,9 @@ a:hover, a:active {
 	border-color: #000;
 	color: #000;
 }
+article {
+	margin-bottom: 36px;
+}
 body {
 	font-family: 'proxima_novaregular', sans-serif;
 	font-size: 18px;
@@ -376,11 +379,50 @@ nav .right a {
 	margin-left: 24px;
 }
 /* ------------------------------------- */
+/* NEWSLETTER */
+/* ------------------------------------- */
+.newsletter {
+	padding-top: 12px;
+}
+.newsletter button {
+	position: relative;
+	top: -1px;
+}
+.newsletter input {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border-color: #d5d5d5;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    height: 36px;
+    line-height: 34px;
+    margin: 0;
+    outline: 0;
+    padding: 0 8px;
+    position: relative;
+    vertical-align: middle;
+    min-width: 350px;
+}
+.newsletter input::-webkit-input-placeholder,
+.newsletter input::-moz-placeholder,
+.newsletter input:-ms-input-placeholder,
+.newsletter input:-moz-placeholder {
+  color: #666;
+}
+/* ------------------------------------- */
 /* NEXT PREV */
 /* ------------------------------------- */
 .nextprev {
 	align-items: flex-start;
 	display: flex;
+	margin-bottom: 36px;
 }
 .nextprev a strong {
 	display: block;
@@ -413,6 +455,7 @@ nav .right a {
 }
 .outline li a.active {
 	color: #000;
+	font-weight: bold;
 }
 .outline strong {
 	display: block;
@@ -602,6 +645,12 @@ nav .right a {
 	}
 	nav .right a {
 		margin: 0 12px 0 0;
+	}
+	.newsletter button {
+		margin-top: 8px;
+	}
+	.newsletter input {
+		display: block;
 	}
 	.outline {
 		display: none;

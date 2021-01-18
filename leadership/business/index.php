@@ -30,7 +30,8 @@
 			<p>It’s important to understand the fundamentals of business, CAC, ROI, ROAS, ARPU, etc… Become familiar with these terms and how your teams work impacts them. Understand how your company is performing at all times.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

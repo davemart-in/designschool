@@ -30,7 +30,8 @@
 			<p>The importance of doing away with the crap sandwich approach to feedback and developing safe zone where can candid feedback can be shared about the work, not the designer.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

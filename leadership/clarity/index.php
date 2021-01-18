@@ -30,7 +30,8 @@
 			<p>Getting to clarity quickly is the objective of any design process. I’ll share some steps you can take to understand whether the design you’ve come up with will be a good fit for the problem you’re trying to solve.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

@@ -30,7 +30,8 @@
 			<p>When there is beef, make it clear that designers should resolve it themselves. When they can’t it’s on you to step in and mediate towards a resolution.</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');

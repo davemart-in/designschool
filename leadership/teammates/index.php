@@ -31,7 +31,8 @@
 			<p>Note from Erin: Maybe worth noting here that there are different types of leadership styles? https://intenseminimalism.com/2015/the-six-styles-of-leadership/</p>
 		</article>
 		<?php 
-		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php'; 
+		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
+		include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php';
 		?>
 		<?php 
 		$contributors = array('davemart-in');
