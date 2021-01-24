@@ -22,7 +22,7 @@
                 <h2>Vision for this project</h2>
             </hgroup>
             <p>I'm <a href="https://davemart.in">Dave Martin</a>.</p>
-            <p>Over the years I've been extremely blessed by the opportunities I've received in my career as a product designer. As I move on to a different chpter of my life, I feel a strong desire to record the things that I've learned over the years. My hope is that this will serve both as a resource for up and coming designers but also a reference guide for my future self.</p>
+            <p>Over the years I've been extremely blessed by the opportunities I've received in my career as a product designer. As I move on to a different chapter of my life, I feel a strong desire to record the things that I've learned over the years. My hope is that this will serve both as a resource for up and coming designers but also a reference guide for my future self.</p>
             <h2>Mission</h2>
             <strong>Democratize design education</strong>
             <h2>Principles</h2>
