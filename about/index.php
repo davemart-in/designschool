@@ -68,8 +68,11 @@
                 I invite any designer who has seen similar blessings in their design career to give back to the next generation of designers by collaborating with me on this project. If you'd like to get involved, simply click the "Edit" button on any lesson.
             </p>
         </article>
-
         <?php include $_SERVER['DOCUMENT_ROOT'] . '/_newsletter.php'; ?>
+        <?php 
+        $contributors = array('davemart-in', 'akuokojnr');
+        include $_SERVER['DOCUMENT_ROOT'] . '/_contributors.php'; 
+        ?>
     </main>
     <script type="text/javascript" src="/ds.js?<?php echo $cachebuster; ?>"></script>
 </body>
