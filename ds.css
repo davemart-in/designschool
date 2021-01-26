@@ -649,6 +649,7 @@ nav .right a {
 	}
 	.status .stage {
 		display: block;
+		margin-left: 0;
 	}
 }
 /* ------------------------------------- */
