@@ -31,6 +31,12 @@
 								<p>Status labels to be more descriptive</p>
 						  </div>
 					</div>
+					<div class="task">
+						  <span class="badge updated">updated</span>
+						  <div class="desc">
+								<p>Dynamic cache buster</p>
+						  </div>
+					</div>
 				</div>
 				<div class="day">
 					<h3>Jan 18, 2021</h3>
