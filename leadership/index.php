@@ -44,7 +44,17 @@
 					</h3>
 					<div class="list">
 				<?php } ?>
-				<a href="/<?php echo $course; ?><?php echo $meta['href']; ?>" class="status <?php echo $meta['status']; ?>"><?php echo $meta['title']; ?> <span class="stage"></span></a>
+				<a href="/<?php echo $course; ?><?php echo $meta['href']; ?>" class="status <?php echo $meta['status']; ?>"><?php echo $meta['title']; ?> 
+					<span class="stage">
+						<?php if ($meta['status'] == 'progress') { ?>
+							In progress
+						<?php } elseif ($meta['status'] == 'complete') { ?>
+							Complete
+						<?php } else { ?>
+							Not started
+						<?php } ?>
+					</span>
+				</a>
 				<?php if (count($data[$course]) == $count) { ?>
 				</div>
 				<?php } ?>

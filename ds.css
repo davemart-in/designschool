@@ -496,16 +496,13 @@ nav .right a {
 /* STATUS */
 /* ------------------------------------- */
 .status .stage {
-	background: #999;
-	border-radius: 100%;
+	color: #666;
 	cursor: pointer;
 	display: inline-block;
-	height: 8px;
+	font-size: 10px;
 	margin-left: 2px;
 	position: relative;
 	text-transform: uppercase;
-	top: -1px;
-	width: 8px;
 	z-index: 2;
 }
 .status.boxed {
@@ -535,24 +532,15 @@ nav .right a {
 .status.boxed .stage {
 	margin: 0 7px 0 0;
 }
-.status.complete .stage {
-	background: #39AC6E;
-}
 .status.complete .stage:before {
 	content: "Still open to feedback";
 	margin-left: -80px;
 	width: 160px;
 }
-.status.progress .stage {
-	background: #FAB347;
-}
 .status.progress .stage:before {
 	content: "Still needs refinement";
 	margin-left: -85px;
 	width: 170px;
-}
-.status.unstarted .stage {
-	background: #93A1B0;
 }
 .status.unstarted .stage:before {
 	content: "Course not yet started";
@@ -651,12 +639,16 @@ nav .right a {
 	}
 	.newsletter input {
 		display: block;
+		min-width: 100%;
 	}
 	.outline {
 		display: none;
 	}
 	.share {
 		display: none;
+	}
+	.status .stage {
+		display: block;
 	}
 }
 /* ------------------------------------- */

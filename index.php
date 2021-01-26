@@ -27,13 +27,13 @@
 			<h3>In progress courses</h3>
 			<div class="list">
 				<?php foreach ($data['courses']['progress'] as $course => $meta) { ?>
-				<a href="<?php echo $meta['href']; ?>" class="status progress"><?php echo $meta['title']; ?> <span class="stage"></span></a>
+				<a href="<?php echo $meta['href']; ?>" class="status progress"><?php echo $meta['title']; ?> <span class="stage">In Progress</span></a>
 				<?php } ?>
 			</div>
 			<h3>Future courses</h3>
 			<div class="list">
 				<?php foreach ($data['courses']['unstarted'] as $course => $meta) { ?>
-				<a href="<?php echo $meta['href']; ?>" class="status unstarted"><?php echo $meta['title']; ?> <span class="stage"></span></a>
+				<a href="<?php echo $meta['href']; ?>" class="status unstarted"><?php echo $meta['title']; ?> <span class="stage">Not Started</span></a>
 				<?php } ?>
 			</div>
 		</article>

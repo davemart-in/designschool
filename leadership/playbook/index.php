@@ -22,8 +22,8 @@
 			<hgroup>
 				<h1><?php echo $data[$course][$lesson]['title']; ?></h1>
 				<?php
-				$status = 'progress'; // complete, progress, unstarted
-				$version = 'v0.1';
+				$status = $data[$course][$lesson]['status']; // complete, progress, unstarted
+				$version = 'v1.0';
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
