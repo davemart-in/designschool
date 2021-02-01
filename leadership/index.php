@@ -50,6 +50,8 @@
 							In progress
 						<?php } elseif ($meta['status'] == 'complete') { ?>
 							Complete
+						<?php } elseif ($meta['status'] == 'draft') { ?>
+							Draft
 						<?php } else { ?>
 							Not started
 						<?php } ?>

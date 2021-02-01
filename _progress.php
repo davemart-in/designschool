@@ -3,6 +3,8 @@
 		In progress
 	<?php } elseif ($status == 'complete') { ?>
 		Complete
+	<?php } elseif ($status == 'draft') { ?>
+		Draft
 	<?php } else { ?>
 		Not started
 	<?php } ?>
