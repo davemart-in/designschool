@@ -13,13 +13,18 @@
 		if (isset($exploded_url[1]) && $exploded_url[1] != 'about' && $exploded_url[1] != 'changelog') {
 			// Second breadcrumb 
 			if (isset($exploded_url[1]) && $exploded_url[1] != '') { 
+				$course_title = ucfirst($exploded_url[1]);
+				// If course name exists, use that
+				if (isset($course_name)) {
+					$course_title = $course_name;
+				}
 				// If lesson, then link course
 				if (isset($exploded_url[2]) && $exploded_url[2] != '') { ?>
-				<a href="/<?php echo $exploded_url[1]; ?>/"><?php echo ucfirst($exploded_url[1]); ?></a>
+				<a href="/<?php echo $exploded_url[1]; ?>/"><?php echo $course_title; ?></a>
 				<?php } else { 
 				// Else just show as bold
 				?>
-				<strong><?php echo ucfirst($exploded_url[1]); ?></strong>
+				<strong><?php echo $course_title; ?></strong>
 				<?php } ?>
 			<?php } 
 			// Third breadcrumb 

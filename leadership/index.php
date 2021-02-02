@@ -1,11 +1,12 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/_top.php'; ?>
 <?php $course = 'leadership'; ?>
+<?php $course_name = 'Design Leadership'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Design <?php echo $course; ?> course</title>
+	<title><?php echo $course_name; ?> Course</title>
 	<meta name="description" content="The importance of ">
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -19,7 +20,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'] . '/_nav.php'; ?>
 		<article>
 			<hgroup>
-				<h1>Design <?php echo $course; ?> course</h1>
+				<h1><?php echo $course_name; ?> Course</h1>
 				<h2>Learn to transition from designer to leader. This course is 100% free.</h2>
 			</hgroup>
 

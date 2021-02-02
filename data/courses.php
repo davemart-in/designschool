@@ -25,7 +25,7 @@ $data["courses"] = [
 		],
 		"distributed"=>[
 			"href"=>"/distributed/",
-			"title"=>"Distributed design"
+			"title"=>"Distributed designer"
 		],
 		"ux"=>[
 			"href"=>"/ux/",
@@ -41,7 +41,7 @@ $data["courses"] = [
 		],
 		"details"=>[
 			"href"=>"/details/",
-			"title"=>"Details delight"
+			"title"=>"Delightful details"
 		],
 		"figma"=>[
 			"href"=>"/figma/",
@@ -75,12 +75,12 @@ $data["courses"] = [
 			"href"=>"/sass/",
 			"title"=>"SaSS basics"
 		],
-		"acccessibility"=>[
-			"href"=>"/acccessibility/",
-			"title"=>"Learn acccessibility"
+		"accessibility"=>[
+			"href"=>"/accessibility/",
+			"title"=>"Learn accessibility"
 		],
-		"javascript"=>[
-			"href"=>"/javascript/",
+		"js"=>[
+			"href"=>"/js/",
 			"title"=>"Javascript basics"
 		],
 		"marketing"=>[

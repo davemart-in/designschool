@@ -1,12 +1,13 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/_top.php'; ?>
 <?php $course = 'leadership'; ?>
+<?php $course_name = 'Design Leadership'; ?>
 <?php $lesson = 'playbook'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title><?php echo $data[$course][$lesson]['title']; ?> - Design leadership</title>
+	<title><?php echo $data[$course][$lesson]['title']; ?> - <?php echo $course_name; ?></title>
 	<meta name="description" content="The importance of creating your own playbook">
 	<link rel="stylesheet" type="text/css" charset="utf-8"  media="screen, projection" href="/ds.css?<?php echo $cachebuster; ?>" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
