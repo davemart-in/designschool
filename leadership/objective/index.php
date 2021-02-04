@@ -23,7 +23,7 @@
 			<hgroup>
 				<h1><?php echo $data["leadership"][$lesson]['title']; ?></h1>
 				<?php
-				$status = 'progress'; // complete, progress, unstarted
+				$status = $data[$course][$lesson]['status']; // complete, draft, progress, unstarted
 				$version = $data[$course][$lesson]['version'];
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
