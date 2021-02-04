@@ -28,7 +28,28 @@
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>Establish a healthy environment and assemble a team of designers who play well together and who deliver exceptional work, on time.</p>
+			<p>If you were to distill what it means for you to be a lead in a single sentence, what would that sentence be?</p>
+			<p>It's worth spending some time on this.<p>
+			<p>Your answer for what success looks like as a design lead is likely to be unique to your situation and you might find that your definition changes with time.</p>
+			<p>If it helps, here's my definition:</p>
+			<blockquote>Establish a healthy environment and assemble a strong team of designers who play well together and who regularly deliver portfolio quality work, on time.</blockquote>
+			<p>Let's break this down</p>
+			<p><strong>Healthy environment</strong></p>
+			<p>Fostering an environment where people feel safe, one that is largely ego-free, where additive feedback can be shared that is never competitive in nature should be top of mind.</p>
+			<p>The environment that you create sets the foundation for everything else</p>
+			<p><strong>Strong team of designers</strong></p>
+			<p>It may just be you as a single designer to start. With time though, assuming the organization you're working for is growing, generally you can expect to eventually need to hire more designers.</p>
+			<p>Hiring the right designers is going to make a night and day difference in how well you are as a lead. Ultimately, your success will be a net result of the designers you lead</p>
+			<p><strong>Play well together</strong></p>
+			<p>Ego, pride, negativity, and toxicity will all erode the effectiveness of your team.</p>
+			<p>We all have ego and pride to some degree, but some designers allow their ego and pride to get in the way of creating a safe environment. Since creating a safe space is priority #1, we cannot allow for this. Finding talented designers who are also humble is where it's at.</p>
+			<p>As a principle, I actively work to either correct or manage folks out of my organization who are either net-negative or toxic to those around them. It doesn't matter how long they've been with the company, what their title is, or how great of a designer they are. In the end, it's never worth keeping these people around.</p>
+			<p><strong>Regularly deliver portfolio quality work</strong></p>
+			<p>I came up with the phrase Portfolio Quality Work (PQW for short) to use as short-hand in conversations with designers who reported to me.</p>
+			<p>On a regular basis, designers should be expected to present the progress they've made with their portfolio quality work.</p>
+			<p>This does a couple of things. First it helps the designer assemble a portfolio of the best work that they completed while working with you. This portfolio can help express their value both internally as well as externally when they decide to move on. The second benefit is that by setting a clear expectation around producing PQW, the product you're designing will naturally be more polished.</p>
+			<p><strong>On time</strong></p>
+			<p>Design plays a critical role in software development. When your team commits to delivering something on a specific date, you should do everything within your power to meet that commitment. Much of the work that a design team does is front loaded at the beginning of projects. When design doesn't meet their commitments, everything else in the project slips. In software development all time lines are basically just guesses. That said, when you do commit to something, you should do your very best to deliver your work on time.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';

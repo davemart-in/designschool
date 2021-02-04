@@ -110,14 +110,14 @@ $data["leadership"] = [
 		"section"=>"intro",
 		"status"=>"draft",
 		"title"=>"Everyone's playbook is different",
-		"version"=>"0.01"
+		"version"=>"0.02"
 	],
 	"objective"=>[
 		"href"=>"/objective/",
 		"section"=>"intro",
-		"status"=>"progress",
+		"status"=>"draft",
 		"title"=>"Your primary objective",
-		"version"=>"0.01"
+		"version"=>"0.02"
 	],
 	"priorities"=>[
 		"href"=>"/priorities/",

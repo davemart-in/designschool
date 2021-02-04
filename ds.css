@@ -32,6 +32,14 @@ a:hover, a:active {
 article {
 	margin-bottom: 36px;
 }
+blockquote {
+	border-left: 3px solid #ddd;
+	color: #555;
+	font-style: italic;
+	line-height: 28px;
+	margin-bottom: 24px;
+	padding: 12px 24px;
+}
 body {
 	font-family: 'proxima_novaregular', sans-serif;
 	font-size: 18px;
