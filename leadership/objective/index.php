@@ -49,7 +49,7 @@
 			<p>On a regular basis, designers should be expected to present the progress they've made with their portfolio quality work.</p>
 			<p>This does a couple of things. First it helps the designer assemble a portfolio of the best work that they completed while working with you. This portfolio can help express their value both internally as well as externally when they decide to move on. The second benefit is that by setting a clear expectation around producing PQW, the product you're designing will naturally be more polished.</p>
 			<p><strong>On time</strong></p>
-			<p>Design plays a critical role in software development. When your team commits to delivering something on a specific date, you should do everything within your power to meet that commitment. Much of the work that a design team does is front loaded at the beginning of projects. When design doesn't meet their commitments, everything else in the project slips. In software development all time lines are basically just guesses. That said, when you do commit to something, you should do your very best to deliver your work on time.</p>
+			<p>Design plays a critical role in software development. When your team commits to delivering something on a specific date, you should do everything within your power to meet that commitment. Much of the work that a design team does is front loaded at the beginning of projects. When design doesn't meet their commitments, everything else in the project slips. In software development all timelines are basically just guesses. That said, when you do commit to something, you should do your very best to deliver your work on time.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
