@@ -93,8 +93,8 @@ small {
 strong {
 	font-family: 'proxima_novabold', sans-serif;
 }
-ul {
-	margin-left: 22px;
+ul, ol {
+	margin: 0 0 24px 22px;
 }
 /* ------------------------------------- */
 /* CHANGELOG */

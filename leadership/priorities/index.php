@@ -28,11 +28,11 @@
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>I've found that on eof the keys to building psychological saftey and a healthy work environment is to explicitly communicate your high level order of operations.</p>
+			<p>I've found that one of the keys to building psychological saftey and a healthy work environment is to explicitly communicate your high level order of operations.</p>
 			<p>Over time, I've settled on the following list of priorities</p>
 			<p>Principles, People, Product, and then Profits, always in that order.</p>
 			<p>Some of this will require collaboration with other leaders outside of your design organization. That's fine. Creating clarity for the folks who report to you around these four areas is going to be a perennial journey. There's no final destination. There will always be room for improvement.</p>
-			<p>Let's drill into each one of these. The following are some questions that you might ask to assess how you're doing within each areas:</p>
+			<p>Let's drill into each one of these. The following are some questions that you might ask to assess how you're doing within each of these areas:</p>
 			<p><strong>Principles</strong></p>
 			<p>Do we have an inspiring creed, a strong mission, and a motivating vision?</p>
 			<p><strong>People</strong></p>
@@ -44,7 +44,7 @@
 			<p>Are we helping customer see the ROI that they get from our products? Is our business profitable? Are conversion rates naturally increasing? Are we seeing a natural decrease in churn? Are we seeing an increase in word of mouth referrals? Is our pricing structure logical and easy to choose from?</p>
 			<p><strong>Getting things out of order</strong></p>
 			<p>It's natural at times to want to jump straight to Profits. Historically, that's the way most businesses have operated. In the age of social media, this is a dying strategy. </p>
-			<p>It's been my observation that any time a company does that it's shortsided. Positive short-term gains accomplished by aggressively optimizing for growth almost always have negative long-term effects which are harder to measure. WHereas, if you focus on principles, people, and product first, growth and profits tend to come much easier in my experience.</p>
+			<p>Jumping straight to profits is often shortsided. Positive short-term gains accomplished by aggressively optimizing for growth almost always have negative long-term effects which are harder to measure. Whereas, if you focus on principles, people, and product first, growth and profits tend to come organically in my experience.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';

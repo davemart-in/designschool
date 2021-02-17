@@ -24,6 +24,15 @@
 			</hgroup>
 			<div class="changelog">
 				<div class="day">
+					<h3>Feb 17, 2021</h3>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Things to consider lesson draft</p>
+						  </div>
+					</div>
+				</div>
+				<div class="day">
 					<h3>Feb 12, 2021</h3>
 					<div class="task">
 						  <span class="badge added">added</span>

@@ -129,9 +129,9 @@ $data["leadership"] = [
 	"consider"=>[
 		"href"=>"/consider/",
 		"section"=>"time management",
-		"status"=>"progress",
+		"status"=>"draft",
 		"title"=>"Many things to consider",
-		"version"=>"0.01"
+		"version"=>"0.02"
 	],
 	"time"=>[
 		"href"=>"/time/",
