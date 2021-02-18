@@ -29,6 +29,8 @@
 				?>
 			</hgroup>
 			<p>Knowing what your priorities are for the day before you open up email or Slack.</p>
+			<p><strong>Bucketing your time</strong></p>
+        	If you work at a company where there are more Slack channels than there are employees, this might be a warning sign. Trying to stay on top of everything that’s going on, and feeling like you have to be in the loop, can be a full-time job in itself. You might consider putting rules around it, like, In the morning check Slack and email for an hour, then after that block out time for heads down work.
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
