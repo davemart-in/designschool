@@ -143,9 +143,9 @@ $data["leadership"] = [
 	"work"=>[
 		"href"=>"/work/",
 		"section"=>"time management",
-		"status"=>"progress",
+		"status"=>"draft",
 		"title"=>"Letting go of design work",
-		"version"=>"0.01"
+		"version"=>"0.02"
 	],
 	"start"=>[
 		"href"=>"/start/",
