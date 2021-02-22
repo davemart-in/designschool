@@ -1,6 +1,6 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/_top.php'; ?>
-<?php $course = 'distributed'; ?>
-<?php $course_name = 'Distributed Designer'; ?>
+<?php $course = 'data'; ?>
+<?php $course_name = 'Data'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +21,7 @@
 		<article>
 			<hgroup>
 				<h1><?php echo $course_name; ?> Course</h1>
-				<h2>Learn how to succeed as a distributed designer. This course is 100% free.</h2>
+				<h2>Become familiar with the basics of being data informed. This course is 100% free.</h2>
 			</hgroup>
 
 			This course is still in the planning stages. Add your email address below to be notified when updates are made.
