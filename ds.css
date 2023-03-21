@@ -394,7 +394,7 @@ nav .right a {
 }
 .newsletter button {
 	position: relative;
-	top: -1px;
+	top: 0;
 }
 .newsletter input {
 	-webkit-appearance: none;
@@ -682,7 +682,7 @@ nav .right a {
 	display: inline-block;
 	font-size: 1rem;
 	font-weight: normal;
-	height: 33px;
+	height: 36px;
 	line-height: 34px;
 	outline: none;
 	padding: 0 1em;
