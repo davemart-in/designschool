@@ -172,9 +172,9 @@ $data["leadership"] = [
 	"care"=>[
 		"href"=>"/care/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Actually care",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"trust"=>[
 		"href"=>"/trust/",
