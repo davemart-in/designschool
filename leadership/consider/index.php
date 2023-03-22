@@ -99,7 +99,7 @@
 				<li>Writing briefs that are easy to understand and keeping them up-to-date</li>
 				<li>Managing timelines and scope for a project</li>
 			</ul>
-			<p>There is a heck of a lot there to consider. But don't let these lists overwhelm you. Keep in mind that you don't have to acquire all of this knowledge over night. Start off by getting good at a few things and then expand the scope of impact from there.</p>
+			<p>There is a heck of a lot there to consider. But don't let these lists overwhelm you. Keep in mind that you don't have to acquire all of this knowledge over night. Start off by getting good at a few things and then expand your scope of impact from there.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';

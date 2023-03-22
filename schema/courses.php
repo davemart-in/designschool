@@ -137,16 +137,16 @@ $data["leadership"] = [
 	"consider"=>[
 		"href"=>"/consider/",
 		"section"=>"time management",
-		"status"=>"draft",
+		"status"=>"complete",
 		"title"=>"Many things to consider",
-		"version"=>"0.02"
+		"version"=>"1.0"
 	],
 	"time"=>[
 		"href"=>"/time/",
 		"section"=>"time management",
-		"status"=>"draft",
+		"status"=>"complete",
 		"title"=>"Know where your time goes",
-		"version"=>"0.02"
+		"version"=>"1.0"
 	],
 	"work"=>[
 		"href"=>"/work/",
