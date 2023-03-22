@@ -165,9 +165,9 @@ $data["leadership"] = [
 	"delegation"=>[
 		"href"=>"/delegation/",
 		"section"=>"time management",
-		"status"=>"draft",
+		"status"=>"complete",
 		"title"=>"Delegation",
-		"version"=>"0.02"
+		"version"=>"1.0"
 	],
 	"care"=>[
 		"href"=>"/care/",
