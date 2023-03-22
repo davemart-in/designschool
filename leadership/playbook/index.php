@@ -28,9 +28,9 @@
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>There are a lot of successful teams in the world. None of whom use the same playbook.</p>
-			<p>As you begin your leadership journey it's important to understand this. There is no magic mix of skills and behaviors that will turn you into a great leader.</p>
-			<p>The best thing that you can do is be authentic to yourself and to iterate towards being a better lead and building a better team with time.</p>
+			<p>In the vast world of design, there exists a plethora of successful teams, each with their unique playbook. It's crucial to acknowledge this fact as you embark on your journey as a design leader. No single formula can guarantee success, as each leader and team have their own set of strengths, weaknesses, and working styles. In the face of such diversity, it's essential for you as a leader to remain open to various approaches and learn from the best practices of others.</p>
+			<p>The key to becoming a great leader lies in staying true to yourself and embracing your authenticity. Your personal values, beliefs, and experiences shape your leadership style, which in turn affects how you inspire, motivate, and guide your team. Being genuine in your actions and decisions will not only help you gain the trust of your team members, but also enable you to make more informed and effective choices that align with your core principles.</p>
+			<p>As you grow into your leadership role, it's important to focus on continuous improvement. Recognize that both you and your team will make mistakes, but these setbacks present valuable opportunities for growth and learning</p>
 			<p>The following resource is meant to be a list of ideas for you to consider. It is in no way meant to be a prescriptive path to follow.</p>
 		</article>
 		<?php 

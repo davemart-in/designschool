@@ -116,9 +116,9 @@ $data["leadership"] = [
 	"playbook"=>[
 		"href"=>"/playbook/",
 		"section"=>"intro",
-		"status"=>"draft",
+		"status"=>"complete",
 		"title"=>"Everyone's playbook is different",
-		"version"=>"0.02"
+		"version"=>"1.0"
 	],
 	"objective"=>[
 		"href"=>"/objective/",
