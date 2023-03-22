@@ -123,16 +123,16 @@ $data["leadership"] = [
 	"objective"=>[
 		"href"=>"/objective/",
 		"section"=>"intro",
-		"status"=>"draft",
+		"status"=>"complete",
 		"title"=>"Your primary objective",
-		"version"=>"0.02"
+		"version"=>"1.0"
 	],
 	"priorities"=>[
 		"href"=>"/priorities/",
 		"section"=>"intro",
-		"status"=>"draft",
+		"status"=>"complete",
 		"title"=>"Priorities",
-		"version"=>"0.02"
+		"version"=>"1.0"
 	],
 	"consider"=>[
 		"href"=>"/consider/",

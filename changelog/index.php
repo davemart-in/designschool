@@ -28,7 +28,13 @@
 					<div class="task">
 						  <span class="badge updated">updated</span>
 						  <div class="desc">
-								<p>Everyone's playbook is different</p>
+								<p>Leadership: Everyone's playbook is different</p>
+						  </div>
+					</div>
+					<div class="task">
+						  <span class="badge updated">updated</span>
+						  <div class="desc">
+								<p>Leadership: Priorities</p>
 						  </div>
 					</div>
 				</div>
@@ -37,7 +43,7 @@
 					<div class="task">
 						  <span class="badge added">added</span>
 						  <div class="desc">
-								<p>Actually care lesson draft</p>
+								<p>Leadership: Actually care</p>
 						  </div>
 					</div>
 				</div>
