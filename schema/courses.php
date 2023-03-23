@@ -179,9 +179,9 @@ $data["leadership"] = [
 	"trust"=>[
 		"href"=>"/trust/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Trust & respect",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"listen"=>[
 		"href"=>"/listen/",
