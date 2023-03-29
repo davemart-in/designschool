@@ -30,7 +30,7 @@
 			</hgroup>
 			<p>One of the most difficult things to do when transitioning from designer to design lead is letting go of the actual design work.</p>
 			<p>Depending on the size of your company, it might make sense for you to continue to do a little bit of design work while also leading. As your company grows though, assuming the size of your design team continues to grow as well, there will likely come a time when you'll have to stop doing design projects yourself.</p>
-			<p><strong>A couple of related notes:</strong></p>
+			<h3>A couple of related notes:</h3>
 			<ul>
 				<li>When you first become a lead, you might consider taking a break from design work to give yourself time to adjust to all of your new lead responsibilities.</li>
 				<li>Wearing both the design lead hat and a designer team member hat can get tricky at times, especially when it comes to conversations around your own design work. Are other designers really going to feel comfortable speaking candidly to their boss about the designs you produce? If you are going to both design and lead, I've found that it can be helpful to state it explicitly, "I've got my designer hat on right now", when you're in designer mode. That way you signal to other designers that they aren't interacting with their design lead.</li>

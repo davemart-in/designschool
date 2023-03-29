@@ -29,7 +29,7 @@
 				?>
 			</hgroup>
 			<p>The list of things that you may end up being responsible for as a design leader can be quite long:</p>
-			<p><strong>Managerial</strong></p>
+			<h3>Managerial</h3>
 			<ul>
 				<li>Coaching</li>
 				<li>Mentoring</li>
@@ -51,7 +51,7 @@
 				<li>Providing motivation</li>
 				<li>Fostering candid feedback</li>
 			</ul>
-			<p><strong>Design</strong></p>
+			<h3>Design</h3>
 			<ul>
 				<li>The concept brainstorming stage</li>
 				<li>the concept fleshing out stage</li>
@@ -82,7 +82,7 @@
 				<li>Device testing</li>
 				<li>The brand to consider</li>
 			</ul>
-			<p><strong>Product management</strong></p>
+			<h3>Product management</h3>
 			<p>Depending on the size of your company, your design team may end up being responsible for product/project management as well, which may include:</p>
 			<ul>
 				<li>Understanding who’s using your product</li>

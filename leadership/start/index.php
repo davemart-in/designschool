@@ -35,12 +35,12 @@
 				<li>Second, I've found that having a discrete list of things that you want to tackle in a day helps with productivity.</li>
 				<li>Third, when new activities come up throughout your day it's helpful to already have a prioritized list of things that you had planned to tackle. That way, you can quickly assess where the new item should go, whether it should displace something in your current day, or whether it can wait until another day.</li>
 			</ul>
-			<p><strong>Big stones, then tiny stones</strong></p>
+			<h3>Big stones, then tiny stones</h3>
 			<p>Knowing what your major priorities are for the day can be helpful prior to opening up email or Slack in the morning. Naturally, as you sort through email and Slack, you'll likely find additional smaller items that you need to add to your list. If you've already jotted down a few larger priorities, then it becomes much easier to gauge where to prioritize these other smaller items.</p>
-			<p><strong>Bucketing your time</strong></p>
-        	<p>If you work at a company where there are more Slack channels than there are employees, this might be a warning sign. Trying to stay on top of everything that’s going on, and feeling like you have to be in the loop, can feel like a full-time job itself at times. If you find yourself spending too much time consuming, you might consider putting rules around it, like, In the morning check Slack and email for an hour, then after that block out a chunk of time on your calendar for heads down work.</p>
-        	<p><strong>Blocking out "no meeting" days</strong></p>
-        	<p>One of the most effective things that I did late in my career was to start blocking out entire days as "no meeting" days on my calendar. I still do this. Mon, Tue, and Thu are meeting days. Wed and Fri are no meeting days. This is not to say that I never have meetings on Wed and Fri. But when I do it's now up to my discretion. Blocking these days out serves as the first line of defense for me to ensure that folks double check with me before booking a meeting on those days. Doing this has probably done more to make me more effecient than anything else. It also helps me feel like I'm somewhat balanced and less stressed.</p>
+			<h3>Bucketing your time</h3>
+    	<p>If you work at a company where there are more Slack channels than there are employees, this might be a warning sign. Trying to stay on top of everything that’s going on, and feeling like you have to be in the loop, can feel like a full-time job itself at times. If you find yourself spending too much time consuming, you might consider putting rules around it, like, In the morning check Slack and email for an hour, then after that block out a chunk of time on your calendar for heads down work.</p>
+    	<h3>Blocking out "no meeting" days</h3>
+    	<p>One of the most effective things that I did late in my career was to start blocking out entire days as "no meeting" days on my calendar. I still do this. Mon, Tue, and Thu are meeting days. Wed and Fri are no meeting days. This is not to say that I never have meetings on Wed and Fri. But when I do it's now up to my discretion. Blocking these days out serves as the first line of defense for me to ensure that folks double check with me before booking a meeting on those days. Doing this has probably done more to make me more effecient than anything else. It also helps me feel like I'm somewhat balanced and less stressed.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';

@@ -33,16 +33,16 @@
 			<p>Principles, People, Product, and then Profits, always in that order.</p>
 			<p>Some of this will require collaboration with other leaders outside of your design organization. That's fine. Creating clarity for the folks who report to you around these four areas is going to be a perennial journey. There's no final destination. There will always be room for improvement.</p>
 			<p>Let's drill into each one of these. The following are some questions that you might ask to assess how you're doing within each of these areas:</p>
-			<p><strong>Principles</strong></p>
+			<h3>Principles</h3>
 			<p>Do we have an inspiring creed, a strong mission, and a motivating vision?</p>
-			<p><strong>People</strong></p>
+			<h3>People</h3>
 			<p>Note: This could include team members, customers, partners.</p>
 			<p>Do people feel safe, motivated, connected, appreciated, supported, trusted, and heard? Are we having fun? Are expectations and responsibilities clear? Do we really understand our customers? Is our brand telling a story that resonates? Are we interacting with customers frequently?</p>
-			<p><strong>Product</strong></p>
+			<h3>Product</h3>
 			<p>Are we building products customers adore? Are we going a step further and building delightful experiences? Are we helping customers accomplish their goals quicker? How relevant does our onboarding feel for each customer use-case? Do we take pride in our work? Are the main flows of our product bug free and easy to use? Are we prioritizing the right things? Is the "why" clear behind each project we work on? Are we iterating beyond the v1 MVP?</p>
-			<p><strong>Profits</strong></p>
+			<h3>Profits</h3>
 			<p>Are we helping customer see the ROI that they get from our products? Is our business profitable? Are conversion rates naturally increasing? Are we seeing a natural decrease in churn? Are we seeing an increase in word of mouth referrals? Is our pricing structure logical and easy to choose from?</p>
-			<p><strong>Getting things out of order</strong></p>
+			<h3>Getting things out of order</h3>
 			<p>In the ever-evolving business landscape, it's not uncommon for companies to prioritize profits as their primary goal. Historically, this approach has been the norm, with organizations focusing on their bottom line to satisfy stakeholders and ensure the continued growth of their enterprise. However, with the advent of social media and the increasing interconnectedness of our world, this traditional profit-centric mentality is gradually becoming outdated and unsustainable.</p>
 			<p>Businesses are no longer operating in isolation; they are now part of a larger ecosystem where consumers, competitors, and industry influencers are constantly interacting, sharing opinions, and holding companies accountable for their actions. As a result, organizations must adapt to this new environment by adopting a more holistic approach that considers not just financial success, but also the social, ethical, and environmental impact of their decisions.</p>
 			<p>This shift in focus calls for a redefinition of success, emphasizing the importance of transparency, authenticity, and genuine connections with customers and stakeholders. In today's digitally-driven world, consumers are more discerning than ever and can quickly spot insincere or profit-driven motives. By prioritizing long-term value creation, fostering meaningful relationships, and addressing the needs and concerns of various stakeholders, businesses can ensure their survival and thrive in the long run.</p>
