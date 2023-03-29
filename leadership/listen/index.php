@@ -28,7 +28,7 @@
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>Effective communication plays a crucial role in any leaders success success. As a design leader, listening intently is an essential skill that can foster collaboration, improve decision-making, and ultimately help your team build better products.</p>
+			<p>Effective communication plays a crucial role in any design leaders success. As a design leader, listening intently is an essential skill that can foster collaboration, improve decision-making, and ultimately help your team build better products.</p>
 			<h3>Listening to designers</h3>
 			<p>Empowering your design team begins with listening to their insights, ideas, and concerns. By actively listening, you can foster a supportive environment that encourages creative thinking and problem-solving. Take the time to understand each designer's unique perspective and acknowledge their contributions. This not only builds trust but also helps create a collaborative culture where designers can thrive and grow professionally.</p>
 			<h3>Listening to colleagues</h3>
