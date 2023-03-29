@@ -37,6 +37,12 @@
 								<p>Leadership: Ask Questions</p>
 						  </div>
 					</div>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Leadership: Own Your Mistakes</p>
+						  </div>
+					</div>
 				</div>
 				<div class="day">
 					<h3>Mar 23, 2023</h3>

@@ -200,9 +200,9 @@ $data["leadership"] = [
 	"mistakes"=>[
 		"href"=>"/mistakes/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Own your mistakes",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"credit"=>[
 		"href"=>"/credit/",

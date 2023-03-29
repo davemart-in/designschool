@@ -35,7 +35,7 @@
 			<p>Design leaders must also be adept at listening to professionals from other disciplines, such as engineering, support, marketing, and business functions. This cross-functional communication is critical for understanding the broader context of your organization's goals and ensuring that your teams proposed design solutions align with their objectives. Active listening enables you to uncover hidden opportunities, identify potential roadblocks, and build strong relationships across departments.</p>
 			<h3>Listening to customers</h3>
 			<p>Arguably, the most important aspect of listening for design leaders is understanding the needs and desires of your customers. By actively engaging directly with customers, you can uncover valuable insights that will drive innovation and inform your design decisions. Listening to customers helps you empathize with their pain points and aspirations, allowing you to create products and experiences that truly resonate with your target audience.</p>
-			<h3>Techniques for Better Listening</h3>
+			<h3>Techniques for better listening</h3>
 			<p>To improve your listening skills, consider the following techniques:</p>
 			<ul>
 			    <li><strong>Be present:</strong> Focus on the speaker and avoid multitasking or distractions during conversations.</li>

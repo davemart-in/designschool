@@ -29,11 +29,11 @@
 				?>
 			</hgroup>
 			<p>As a design leader, one of your key responsibilities is to guide and mentor your team to achieve their best work. While it may be tempting to provide quick solutions or specific mockups, doing so can come across as overly prescriptive and can limit creativity. Asking questions, on the other hand, can help steer designers in the right direction while still allowing them the freedom to explore and innovate.</p>
-			<h3>The Power of Questions</h3>
+			<h3>The power of questions</h3>
 			<p>Questions are powerful tools that can unlock creativity, encourage critical thinking, and foster a deeper understanding of design challenges. By asking the right questions, you can guide your designers to explore various perspectives, identify potential roadblocks, and ultimately develop more effective solutions. Moreover, encouraging designers to think through problems independently can lead to solutions that exceed your original expectations.</p>
-			<h3>Avoiding Overly Prescriptive Guidance</h3>
+			<h3>Avoiding overly prescriptive guidance</h3>
 			<p>While offering specific guidance or mockups can seem like a quick way to address design challenges, doing so can limit your team's creativity and stifle growth. By providing overly prescriptive solutions, you risk creating a culture of dependency, where designers rely on your input rather than thinking critically and independently. Instead, focus on asking thought-provoking questions that enable your team to develop their problem-solving skills and reach their full potential.</p>
-			<h3>Types of Questions to Ask</h3>
+			<h3>Types of questions to ask</h3>
 			<p>Effective questioning involves more than simply asking for input or feedback. Consider incorporating the following types of questions to foster a culture of curiosity and innovation:</p>
 			<ul>
 			    <li><strong>Open-ended questions:</strong> Encourage exploration and deeper thinking by asking questions that cannot be answered with a simple "yes" or "no."</li>
@@ -41,7 +41,7 @@
 			    <li><strong>Reflective questions:</strong> Help designers evaluate their own thought process by asking them to consider alternative approaches or perspectives.</li>
 			    <li><strong>Clarifying questions:</strong> Ensure clear communication and understanding by asking questions that uncover the precise meaning behind statements or ideas.</li>
 			</ul>
-			<h3>Creating a Culture of Inquiry</h3>
+			<h3>Creating a culture of inquiry</h3>
 			<p>Asking questions not only benefits individual designers but also helps create a culture of inquiry within your team. Encourage designers to ask questions of each other, as well as of stakeholders and customers. This collaborative approach to problem-solving can lead to more diverse perspectives, increased creativity, and ultimately, better designs.</p>
 		</article>
 		<?php 
