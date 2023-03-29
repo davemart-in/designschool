@@ -24,11 +24,17 @@
 			</hgroup>
 			<div class="changelog">
 				<div class="day">
-					<h3>Mar 23, 2023</h3>
+					<h3>Mar 29, 2023</h3>
 					<div class="task">
 						  <span class="badge added">added</span>
 						  <div class="desc">
 								<p>Leadership: Listen Intently</p>
+						  </div>
+					</div>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Leadership: Ask Questions</p>
 						  </div>
 					</div>
 				</div>

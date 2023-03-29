@@ -193,9 +193,9 @@ $data["leadership"] = [
 	"questions"=>[
 		"href"=>"/questions/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Ask questions",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"mistakes"=>[
 		"href"=>"/mistakes/",
