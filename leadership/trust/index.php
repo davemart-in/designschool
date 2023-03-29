@@ -36,7 +36,7 @@
 			<p>Respect, on the other hand, is built by showing genuine appreciation for your designers' skills, efforts, and unique perspectives. Actively listening to their ideas, providing constructive feedback, and giving credit where it's due fosters a culture of mutual respect and encourages the free flow of creative ideas. Encouraging a culture of inclusion and diversity, where everyone feels valued and heard, also contributes to an environment where respect can thrive.</p>
 			<h3>Easily lost</h3>
 			<p>Trust and respect are fragile and can be easily lost through inconsistent behavior, lack of follow-through, failing to give credit your team for their work, or through consistent poor communication. A single misstep or lapse in judgment can undermine the trust and respect you've worked so hard to establish. It's important to be mindful of your actions and interactions, and to address any issues that may arise in a timely, honest, and respectful manner. By actively working to rebuild and strengthen trust and respect when they are challenged, you will demonstrate your commitment to fostering a positive and supportive workplace culture.</p>
-			<h3>In conclusion</h3>
+			<h3>Conclusion</h3>
 			<p>Building trust and respect with your team members is a continuous process that requires intentional effort and self-awareness. By nurturing an environment of open communication, inclusion, and accountability, you can create a strong foundation for your team's success and growth. Remember that trust and respect are two-way streets; as a design leader, it's not only your responsibility to earn your team's trust and respect, but also to reciprocate by trusting and respecting their skills, ideas, and contributions.</p>
 		</article>
 		<?php 

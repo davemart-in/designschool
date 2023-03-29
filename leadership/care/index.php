@@ -30,7 +30,7 @@
 			</hgroup>
 			<p>In the world of design leadership, authenticity is crucial. Your team members will quickly sense if your concern for their growth and well-being is genuine or not. To be an effective leader, you must genuinely care about your team and their success. Below, we'll explore the importance of actually caring, how it impacts your leadership, and ways to demonstrate authentic care to your team.</p>
 
-			<h3>Why It Matters:</h3>
+			<h3>Why It Matters</h3>
 			<ol>
 			<li><strong>Building Trust:</strong> When you genuinely care about your team members, they are more likely to trust you. Trust is essential in fostering open communication, collaboration, and a healthy work environment.</li>
 			<li><strong>Employee Retention:</strong> Team members who feel valued and supported are more likely to stay committed to their jobs, resulting in lower turnover rates and higher overall satisfaction.</li>
@@ -38,7 +38,7 @@
 			<li><strong>Encourages Personal Growth:</strong> When you care about your team members, you're more likely to invest in their personal growth and development, helping them unlock their potential and become better designers.</li>
 			</ol>
 
-			<h3>How to "Actually Care":</h3>
+			<h3>How to "Actually Care"</h3>
 			<ol>
 			<li><strong>Be Present and Attentive:</strong> Listen actively to your team members, give them your undivided attention during meetings, and show genuine interest in their ideas and concerns.</li>
 			<li><strong>Communicate Openly and Honestly:</strong> Be transparent about your intentions and expectations. Encourage open communication and provide constructive feedback to help your team grow.</li>
@@ -47,7 +47,7 @@
 			<li><strong>Foster a Positive Work Environment:</strong> Create a culture that values collaboration, inclusivity, and respect. Recognize and appreciate your team members' hard work and contributions.</li>
 			</ol>
 
-			<h3>Conclusion:</h3>
+			<h3>Conclusion</h3>
 			<p>"Actually caring" is the foundation of effective design leadership. By genuinely investing in the well-being and growth of your team members, you build trust, boost morale, and create a positive work environment that drives success. Remember, authentic care is not something that can be faked; it requires a true commitment to the people you lead. Cultivate a leadership style rooted in empathy and support, and watch your team flourish.</p>
 
 		</article>
