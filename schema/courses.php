@@ -186,9 +186,9 @@ $data["leadership"] = [
 	"listen"=>[
 		"href"=>"/listen/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Listen intently",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"questions"=>[
 		"href"=>"/questions/",
