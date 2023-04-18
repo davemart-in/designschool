@@ -37,6 +37,12 @@
 								<p>Leadership: Stand up for your designers</p>
 						  </div>
 					</div>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Leadership: Understanding business 101</p>
+						  </div>
+					</div>
 				</div>
 				<div class="day">
 					<h3>Mar 29, 2023</h3>

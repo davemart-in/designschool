@@ -221,9 +221,9 @@ $data["leadership"] = [
 	"business"=>[
 		"href"=>"/business/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Understanding business 101",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"decisions"=>[
 		"href"=>"/decisions/",
