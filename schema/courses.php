@@ -207,9 +207,9 @@ $data["leadership"] = [
 	"credit"=>[
 		"href"=>"/credit/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Give credit to your team",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"stand"=>[
 		"href"=>"/stand/",

@@ -24,6 +24,15 @@
 			</hgroup>
 			<div class="changelog">
 				<div class="day">
+					<h3>Apr 18, 2023</h3>
+					<div class="task">
+						  <span class="badge added">added</span>
+						  <div class="desc">
+								<p>Leadership: Give credit to your team</p>
+						  </div>
+					</div>
+				</div>
+				<div class="day">
 					<h3>Mar 29, 2023</h3>
 					<div class="task">
 						  <span class="badge added">added</span>
