@@ -44,8 +44,6 @@
 			</ul>
 
 			<p>Understanding these key business metrics and how they are influenced by your team's work enables you to better align your team's goals with the company's objectives. Additionally, it helps you communicate the value of your team's work to other stakeholders within the organization. By staying informed about your company's performance and the factors that drive it, you can make more strategic decisions and contribute to its growth and success.</p>
-
-			<p>Understanding the fundamentals of business is a vital aspect of design leadership. By familiarizing yourself with essential business metrics and how your team's work impacts them, you can better align your team's goals with the company's objectives and make more strategic decisions. By staying informed about your company's performance and engaging in continuous learning, you will become a more effective design leader and contribute to the overall success of your organization.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';
