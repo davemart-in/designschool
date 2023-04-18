@@ -44,7 +44,7 @@
 				<li><strong>Public recognition:</strong> Acknowledge team members' contributions in meetings, company-wide announcements, or newsletters to give them the visibility they deserve.</li>
 				<li><strong>Encourage peer recognition:</strong> Foster a culture where team members appreciate and recognize each other's efforts, creating a supportive work environment.</li>
 				<li><strong>Share success stories:</strong> Share your team's success stories with other departments or higher-ups, showcasing their achievements and giving them credit for their hard work.</li>
-				<li><strong>Celebrate milestones:<s/trong> Organize celebrations or team-building events to acknowledge milestones and achievements, showing your gratitude and appreciation.</li>
+				<li><strong>Celebrate milestones:</strong> Organize celebrations or team-building events to acknowledge milestones and achievements, showing your gratitude and appreciation.</li>
 			</ol>
 
 			<p>Giving credit to your team is a powerful way to demonstrate your support, build trust, and motivate your team to continue delivering exceptional work. As a design leader, it's crucial to create a culture where team members feel valued and appreciated for their efforts. By recognizing and celebrating their accomplishments, you cultivate a positive work environment that encourages collaboration, innovation, and success.</p>

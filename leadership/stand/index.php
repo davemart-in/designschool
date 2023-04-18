@@ -28,7 +28,15 @@
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>The importance of standing up for your team.</p>
+			<p>As a design leader, another way to show support for your team members is by ensuring that they are treated fairly and with respect. Standing up for your designers is really important for fostering trust and maintaining a positive work environment. By addressing negative comments, advocating for your team, and defending their work, you demonstrate loyalty and your commitment to your team.</p>
+
+			<p>One key aspect of standing up for your team is addressing any negative comments directed their way. By promptly and professionally resolving these issues, you help create a more supportive and respectful work atmosphere.</p>
+
+			<p>It's also important to be the voice for your team when they cannot speak for themselves. Represent their interests in meetings with management, help them navigate conflicts with other departments, and communicate the value of their work. By advocating for your designers, you show your dedication to their professional growth and success.</p>
+
+			<p>Lastly, setting clear boundaries is essential to protect your team from excessive workload or unrealistic expectations. Communicate these boundaries to management and other stakeholders, ensuring your team has the resources and time needed to deliver quality work.</p>
+
+			<p>Remember, as a design leader, your role is not only to guide your team's work but also to advocate for them. By standing up for your designers, you create a more unified team that is more capable of overcoming challenges and achieving success.</p>
 		</article>
 		<?php 
 		include $_SERVER['DOCUMENT_ROOT'] . '/_nextprev.php';

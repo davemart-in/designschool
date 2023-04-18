@@ -214,9 +214,9 @@ $data["leadership"] = [
 	"stand"=>[
 		"href"=>"/stand/",
 		"section"=>"fundamentals",
-		"status"=>"progress",
+		"status"=>"complete",
 		"title"=>"Stand up for your designers",
-		"version"=>"0.01"
+		"version"=>"1.0"
 	],
 	"business"=>[
 		"href"=>"/business/",
