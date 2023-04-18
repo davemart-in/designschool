@@ -28,7 +28,7 @@
 				include $_SERVER['DOCUMENT_ROOT'] . '/_progress.php'; 
 				?>
 			</hgroup>
-			<p>As a design leader, another way to show support for your team members is by ensuring that they are treated fairly and with respect. Standing up for your designers is really important for fostering trust and maintaining a positive work environment. By addressing negative comments, advocating for your team, and defending their work, you demonstrate loyalty and your commitment to your team.</p>
+			<p>Another way to show support for your team members is by ensuring that they are treated fairly and with respect. Standing up for your designers is really important for fostering trust and maintaining a positive work environment. By addressing negative comments, advocating for your team, and defending their work, you demonstrate loyalty and your commitment to your team.</p>
 
 			<p>One key aspect of standing up for your team is addressing any negative comments directed their way. By promptly and professionally resolving these issues, you help create a more supportive and respectful work atmosphere.</p>
 
